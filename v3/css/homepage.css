@@ -22,11 +22,16 @@
     background-color: #e37f1c; }
   .gg-btn--tertiaryDark {
     background-color: #97341b; }
+  .gg-btn--onDark {
+    background-color: transparent;
+    border: 1px solid #fff; }
+    .gg-btn--onDark:hover, .gg-btn--onDark:focus .gg-btn--onDark:active {
+      background-color: rgba(255, 255, 255, 0.1); }
 
 .title-small {
   color: #457389;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: .8em;
   letter-spacing: 2px;
   font-weight: bold; }
   .title-small--secondary {
@@ -50,11 +55,18 @@
   margin-bottom: 3em; }
 
 .what-we-do {
-  margin: 3em;
-  padding: 2em 15em 3em;
-  border-bottom: 1px solid #aaa; }
+  width: 80%;
+  margin: 3em auto;
+  padding: 2em;
+  border-bottom: 1px solid #ddd; }
+  @media screen and (max-width: 640px) {
+    .what-we-do {
+      width: 100%;
+      margin: 0; } }
 
 .calls-to-action .call-to-action {
+  display: flex;
+  flex-direction: column;
   width: 33%;
   min-width: 300px;
   padding: 2em; }
@@ -64,30 +76,71 @@
     width: auto;
     height: 90px;
     margin-bottom: 1.5em; }
+  .calls-to-action .call-to-action button {
+    margin-top: auto; }
 
 .join-nonprofits .img-bg-cover {
   display: flex;
   justify-content: flex-end;
   background-image: url(../../img/photoBackgrounds/background1.png); }
+  @media screen and (max-width: 940px) {
+    .join-nonprofits .img-bg-cover {
+      background-repeat: no-repeat;
+      background-position-x: -110px; } }
+  @media screen and (max-width: 640px) {
+    .join-nonprofits .img-bg-cover {
+      background-image: unset;
+      background-color: #457389; } }
 
 .join-nonprofits .text-block {
-  width: 50%;
+  width: 40%;
   margin: 9em 2em;
   color: #fff; }
+  @media screen and (max-width: 940px) {
+    .join-nonprofits .text-block {
+      margin: 4em 2em; } }
+  @media screen and (max-width: 640px) {
+    .join-nonprofits .text-block {
+      width: 90%;
+      font-size: smaller; } }
 
-.join-companies .logos-grid-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 33%;
-  min-width: 300px;
-  background-color: #aabfc9;
-  padding: 3em 4em;
-  margin: 2px; }
-  .join-companies .logos-grid-logo img {
-    max-width: 60%;
-    max-height: 3em; }
+.join-nonprofits .title-small {
+  margin-bottom: 2em; }
 
-.disasters .img-bg-cover {
-  background-image: url(../../img/photoBackgrounds/background2.png);
-  height: 55em; }
+.join-companies {
+  margin: 6em 0 4em; }
+  .join-companies .text-block {
+    width: 80%;
+    margin: auto; }
+  .join-companies .logos-grid {
+    margin-top: 4em; }
+  .join-companies .logos-grid-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    min-width: 300px;
+    background-color: #aabfc9;
+    padding: 3em 4em;
+    margin: 2px; }
+    .join-companies .logos-grid-logo img {
+      max-width: 60%;
+      max-height: 3em; }
+
+.disasters {
+  margin-bottom: 0; }
+  .disasters .text-block {
+    width: 80%;
+    margin: auto; }
+  .disasters .img-bg-cover {
+    background-image: url(../../img/photoBackgrounds/background2.png);
+    height: 55em; }
+    @media screen and (max-width: 940px) {
+      .disasters .img-bg-cover {
+        background-repeat: no-repeat;
+        background-position-y: 100px;
+        background-position-x: -100px; } }
+    @media screen and (max-width: 650px) {
+      .disasters .img-bg-cover {
+        background-image: unset;
+        height: auto; } }

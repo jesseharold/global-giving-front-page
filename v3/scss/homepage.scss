@@ -31,12 +31,22 @@
     &--tertiaryDark {
         background-color: #97341b;
     }
+
+    &--onDark {
+        background-color: transparent;
+        border: 1px solid #fff;
+
+        &:hover, &:focus &:active {
+            background-color: rgba($color: #fff, $alpha: 0.1);
+        }
+    }
+
 }
 
 .title-small {
     color: #457389;
     text-transform: uppercase;    
-    font-size: 1em;
+    font-size: .8em;
     letter-spacing: 2px;
     font-weight: bold;
 
@@ -71,13 +81,21 @@
 }
 
 .what-we-do {
-    margin: 3em;
-    padding: 2em 15em 3em;
-    border-bottom: 1px solid #aaa;
+    width: 80%;
+    margin: 3em auto;
+    padding: 2em;
+    border-bottom: 1px solid #ddd;
+    
+    @media screen and (max-width: 640px) {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .calls-to-action {
     .call-to-action {
+        display: flex;
+        flex-direction: column;
         width: 33%;
         min-width: 300px;
         padding: 2em;
@@ -91,6 +109,10 @@
             height: 90px;
             margin-bottom: 1.5em;
         }
+
+        button {
+            margin-top: auto;
+        }
     }
 }
 
@@ -99,16 +121,48 @@
         display: flex;
         justify-content: flex-end;
         background-image: url(../../img/photoBackgrounds/background1.png);
+
+        @media screen and (max-width: 940px) {
+            background-repeat: no-repeat;
+            background-position-x: -110px;
+        }
+
+        @media screen and (max-width: 640px) {
+            background-image: unset;
+            background-color: #457389;
+        }
     }
 
     .text-block {
-        width: 50%;
+        width: 40%;
         margin: 9em 2em;
         color: #fff;
+
+        @media screen and (max-width: 940px) {
+            margin: 4em 2em;
+        } 
+        @media screen and (max-width: 640px) {
+            width: 90%;
+        }
+    }
+
+    .title-small {
+        margin-bottom: 2em;
     }
 }
 
 .join-companies {
+    margin: 6em 0 4em;
+    
+    .text-block {
+        width: 80%;
+        margin: auto;
+    }
+
+    .logos-grid {
+        margin-top: 4em;
+    }
+
     .logos-grid-logo {
         display: flex;
         align-items: center;
@@ -127,11 +181,25 @@
 }
 
 .disasters {
+    margin-bottom: 0;
+
+    .text-block {
+        width: 80%;
+        margin: auto;
+    }
+
     .img-bg-cover {
         background-image: url(../../img/photoBackgrounds/background2.png);
         height: 55em;
-    }
 
-    .text-block {
+        @media screen and (max-width: 940px) {
+            background-repeat: no-repeat;
+            background-position-y: 100px;
+            background-position-x: -100px;
+        }
+        @media screen and (max-width: 650px) {
+            background-image: unset;
+            height: auto;
+        }
     }
 }
