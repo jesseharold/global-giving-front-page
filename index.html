@@ -2,16 +2,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# globalgiving: http://ogp.me/ns/fb/globalgiving#">
-      
-
-	
-
-      
-
-
-
-
-
    
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,365 +31,327 @@
 <meta name="msapplication-TileColor" content="#9f00a7" />
 <meta name="msapplication-TileImage" content="http://www.globalgiving.org/favicon/mstile-144x144.png" />
 <meta name="application-name" content="GlobalGiving" />
+<meta name="description" content="GlobalGiving is a nonprofit that connects donors with grassroots projects around the world. Donate to charity and see your impact with regular updates."/>
 
-<script type="text/javascript">
-   window.gg = window.gg || {};
-   window.gg.geoIpCurrency = "USD";
-
-   function loadOneJS(e,n){"use strict";var t=window.document.getElementsByTagName("script")[0],o=window.document.createElement("script");return o.src=e,o.async=!0,t.parentNode.insertBefore(o,t),n&&"function"==typeof n&&(o.onload=n),o}function loadJS(e,t){if(!(e instanceof Array))return loadOneJS(e,t);for(var o=e.length,n=function(){if((o-=1)<0)console.log("loadJS decremented too far");else if(!(0<o)){if(t&&"string"==typeof t){for(var e=t.split("."),n=window;0<e.length;)n=n[e.shift()];t=n}t&&"function"==typeof t&&t()}},r=[];0<e.length;){var i=e.shift();r.push(loadOneJS(i,n))}}
-   !function o(i,l,s){function u(t,e){if(!l[t]){if(!i[t]){var n="function"==typeof require&&require;if(!e&&n)return n(t,!0);if(c)return c(t,!0);var r=new Error("Cannot find module '"+t+"'");throw r.code="MODULE_NOT_FOUND",r}var a=l[t]={exports:{}};i[t][0].call(a.exports,function(e){return u(i[t][1][e]||e)},a,a.exports,o,i,l,s)}return l[t].exports}for(var c="function"==typeof require&&require,e=0;e<s.length;e++)u(s[e]);return u}({1:[function(e,t,n){var r=e("hbsfy/runtime");t.exports=r.template({1:function(e,t,n,r,a){var o,i,l=null!=t?t:e.nullContext||{};return'   <a href="javascript:void(0)" class="layout_centerVertical js-loginName layout_rel">\n      <div class="layout_inlineBlock img-bg img-bg-cover" style="width:40px;height:40px;border-radius:40px; background-color: gray; background-image:url('+e.escapeExpression("function"==typeof(i=null!=(i=n.pictureurl||(null!=t?t.pictureurl:t))?i:n.helperMissing)?i.call(l,{name:"pictureurl",hash:{},data:a}):i)+')"></div>\n      <div class="downArrow layout_abs" style="right: -20px;top: 10%;">&nbsp;</div>\n   </a>\n   <div class="grid-parent layout_abs layout_alignLeft zindex_popup link_block2 border_default border_top0 col_white col_ggPrimary3DarkText loginPerms">\n'+(null!=(o=n.each.call(l,null!=t?t.perms:t,{name:"each",hash:{},fn:e.program(2,a,0),inverse:e.noop,data:a}))?o:"")+(null!=(o=n.if.call(l,null!=t?t.perms:t,{name:"if",hash:{},fn:e.program(4,a,0),inverse:e.noop,data:a}))?o:"")+(null!=(o=n.each.call(l,null!=t?t.accountLinks:t,{name:"each",hash:{},fn:e.program(6,a,0),inverse:e.noop,data:a}))?o:"")+'      <div class="grid-12 box_horizontalPadded6"><hr/></div>\n\n      <a class="grid-12 box_topPadded1 box_bottomPadded2 box_horizontalPadded6 js-logout" href="javascript:void(0)">Log out</a>\n   </div>\n'},2:function(e,t,n,r,a){var o,i=null!=t?t:e.nullContext||{},l=n.helperMissing,s="function",u=e.escapeExpression;return'         <a class="grid-12 box_verticalPadded1 box_horizontalPadded6 col_inherit" href="'+u(typeof(o=null!=(o=n.value||(null!=t?t.value:t))?o:l)===s?o.call(i,{name:"value",hash:{},data:a}):o)+'">'+u(typeof(o=null!=(o=n.label||(null!=t?t.label:t))?o:l)===s?o.call(i,{name:"label",hash:{},data:a}):o)+"</a>\n"},4:function(e,t,n,r,a){return'         <div class="grid-12 box_horizontalPadded6"><hr/></div>\n'},6:function(e,t,n,r,a){var o,i=null!=t?t:e.nullContext||{},l=n.helperMissing,s="function",u=e.escapeExpression;return'         <a class="grid-12 box_verticalPadded1 box_horizontalPadded6 col_ggSecondary2Text" href="'+u(typeof(o=null!=(o=n.value||(null!=t?t.value:t))?o:l)===s?o.call(i,{name:"value",hash:{},data:a}):o)+'">'+u(typeof(o=null!=(o=n.label||(null!=t?t.label:t))?o:l)===s?o.call(i,{name:"label",hash:{},data:a}):o)+"</a><br/>\n"},8:function(e,t,n,r,a){var o;return'   <a id="login_link" href="/dy/v2/login/form.html?andthen='+e.escapeExpression("function"==typeof(o=null!=(o=n.url||(null!=t?t.url:t))?o:n.helperMissing)?o.call(null!=t?t:e.nullContext||{},{name:"url",hash:{},data:a}):o)+'">Login</a><br/>\n'},compiler:[7,">= 4.0.0"],main:function(e,t,n,r,a){var o;return null!=(o=n.if.call(null!=t?t:e.nullContext||{},null!=t?t.succeeded:t,{name:"if",hash:{},fn:e.program(1,a,0),inverse:e.program(8,a,0),data:a}))?o:""},useData:!0})},{"hbsfy/runtime":39}],2:[function(e,t,n){var r=e("hbsfy/runtime");t.exports=r.template({compiler:[7,">= 4.0.0"],main:function(e,t,n,r,a){return'<div class="layout_center col_ggPrimary1 box_verticalPaddedHalf col_whiteText layout_centerVertical">\n   <strong>REMINDER: Logged in as another user.</strong> &nbsp;&nbsp;&nbsp;<a href="/dy/v2/admin/gg/logout-from-user.html" class="btn btn_ggPrimary2 btn_narrow btn_simple text_fontSizeSmaller">Return to my account</a>\n</div>'},useData:!0})},{"hbsfy/runtime":39}],3:[function(e,t,n){window.deferred=[],window.gg=window.gg||{},window.gg.templates=window.gg.templates||{},window.loadCSS=e("./deps/loadCSS.bsfy"),loadCSS("http://fonts.googleapis.com/css?subset=latin&family=Open+Sans:400,400italic,700,700italic,800&display=swap"),loadCSS("http://fonts.googleapis.com/css?subset=latin&family=Aleo:300,400,700&display=swap"),gg.cookie=e("./modules/cookies.bsfy"),gg.tracking=e("./modules/tracking.bsfy"),gg.img=e("./modules/image.bsfy"),e("./deps/lazysizes-5.1.1.min.js"),e("./modules/login.js"),e("./modules/userCurrency.bsfy"),e("./modules/cartItems.bsfy")},{"./deps/lazysizes-5.1.1.min.js":5,"./deps/loadCSS.bsfy":6,"./modules/cartItems.bsfy":8,"./modules/cookies.bsfy":9,"./modules/image.bsfy":11,"./modules/login.js":12,"./modules/tracking.bsfy":16,"./modules/userCurrency.bsfy":17}],4:[function(e,t,n){var r,a,o,i,l;r=window,a=document,o="ga",r.GoogleAnalyticsObject=o,r.ga=r.ga||function(){(r.ga.q=r.ga.q||[]).push(arguments)},r.ga.l=1*new Date,i=a.createElement("script"),l=a.getElementsByTagName("script")[0],i.async=1,i.src="https://www.google-analytics.com/analytics.js",l.parentNode.insertBefore(i,l),ga("create","UA-1836649-1",{cookieDomain:"globalgiving.org",siteSpeedSampleRate:100}),ga("set","anonymizeIp",!0),ga("require","displayfeatures"),ga("require","linkid","linkid.js"),loadJS("http://www.globalgiving.org/v2/js/deps/autotrack/autotrack.min.js"),ga("require","eventTracker"),ga("require","maxScrollTracker"),ga("require","pageVisibilityTracker"),ga("require","outboundLinkTracker"),ga("require","urlChangeTracker"),ga("require","cleanUrlTracker",{stripQuery:!1,indexFilename:"index.html",trailingSlash:"add"}),ga("send","pageview"),window.onerror=function(e,t,n){ga("send","exception",{exDescription:"["+t+" ("+n+")] "+e,exFatal:!1})},function(e,t,n,r,a){e[r]=e[r]||[],e[r].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var o=t.getElementsByTagName("script")[0],i=t.createElement("script");i.async=!0,i.src="https://www.googletagmanager.com/gtm.js?id=GTM-KWC8KHF",o.parentNode.insertBefore(i,o)}(window,document,0,"dataLayer")},{}],5:[function(e,t,n){var r,a;r="undefined"!=typeof window?window:{},a=function(r,p){"use strict";var m,g;if(function(){var e,t={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",autosizesClass:"lazyautosizes",srcAttr:"data-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:0,throttleDelay:125};for(e in g=r.lazySizesConfig||r.lazysizesConfig||{},t)e in g||(g[e]=t[e])}(),!p||!p.getElementsByClassName)return{init:function(){},cfg:g,noSupport:!0};var h=p.documentElement,o=r.Date,a=r.HTMLPictureElement,i="addEventListener",y="getAttribute",e=r[i],d=r.setTimeout,n=r.requestAnimationFrame||d,l=r.requestIdleCallback,f=/^picture$/i,s=["load","error","lazyincluded","_lazyloaded"],u={},v=Array.prototype.forEach,c=function(e,t){return u[t]||(u[t]=new RegExp("(\\s|^)"+t+"(\\s|$)")),u[t].test(e[y]("class")||"")&&u[t]},b=function(e,t){c(e,t)||e.setAttribute("class",(e[y]("class")||"").trim()+" "+t)},x=function(e,t){var n;(n=c(e,t))&&e.setAttribute("class",(e[y]("class")||"").replace(n," "))},_=function(t,n,e){var r=e?i:"removeEventListener";e&&_(t,n),s.forEach(function(e){t[r](e,n)})},C=function(e,t,n,r,a){var o=p.createEvent("Event");return n||(n={}),n.instance=m,o.initEvent(t,!r,!a),o.detail=n,e.dispatchEvent(o),o},w=function(e,t){var n;!a&&(n=r.picturefill||g.pf)?(t&&t.src&&!e[y]("srcset")&&e.setAttribute("srcset",t.src),n({reevaluate:!0,elements:[e]})):t&&t.src&&(e.src=t.src)},k=function(e,t){return(getComputedStyle(e,null)||{})[t]},E=function(e,t,n){for(n=n||e.offsetWidth;n<g.minSize&&t&&!e._lazysizesWidth;)n=t.offsetWidth,t=t.parentNode;return n},M=(Ce=[],we=[],ke=Ce,Ee=function(){var e=ke;for(ke=Ce.length?we:Ce,_e=!(xe=!0);e.length;)e.shift()();xe=!1},Me=function(e,t){xe&&!t?e.apply(this,arguments):(ke.push(e),_e||(_e=!0,(p.hidden?d:n)(Ee)))},Me._lsFlush=Ee,Me),t=function(n,e){return e?function(){M(n)}:function(){var e=this,t=arguments;M(function(){n.apply(e,t)})}},P=function(e){var t,n,r=function(){t=null,e()},a=function(){var e=o.now()-n;e<99?d(a,99-e):(l||r)(r)};return function(){n=o.now(),t||(t=d(a,99))}},A=(ee=/^img$/i,te=/^iframe$/i,ne="onscroll"in r&&!/(gle|ing)bot/.test(navigator.userAgent),re=0,ae=0,oe=-1,ie=function(e){ae--,(!e||ae<0||!e.target)&&(ae=0)},le=function(e){return null==G&&(G="hidden"==k(p.body,"visibility")),G||"hidden"!=k(e.parentNode,"visibility")&&"hidden"!=k(e,"visibility")},se=function(e,t){var n,r=e,a=le(e);for(U-=t,V+=t,W-=t,q+=t;a&&(r=r.offsetParent)&&r!=p.body&&r!=h;)(a=0<(k(r,"opacity")||1))&&"visible"!=k(r,"overflow")&&(n=r.getBoundingClientRect(),a=q>n.left&&W<n.right&&V>n.top-1&&U<n.bottom+1);return a},ue=function(){var e,t,n,r,a,o,i,l,s,u,c,d,f=m.elements;if((H=g.loadMode)&&ae<8&&(e=f.length)){for(t=0,oe++;t<e;t++)if(f[t]&&!f[t]._lazyRace)if(!ne||m.prematureUnveil&&m.prematureUnveil(f[t]))he(f[t]);else if((l=f[t][y]("data-expand"))&&(o=1*l)||(o=re),u||(u=!g.expand||g.expand<1?500<h.clientHeight&&500<h.clientWidth?500:370:g.expand,m._defEx=u,c=u*g.expFactor,d=g.hFac,G=null,re<c&&ae<1&&2<oe&&2<H&&!p.hidden?(re=c,oe=0):re=1<H&&1<oe&&ae<6?u:0),s!==o&&(R=innerWidth+o*d,F=innerHeight+o,i=-1*o,s=o),n=f[t].getBoundingClientRect(),(V=n.bottom)>=i&&(U=n.top)<=F&&(q=n.right)>=i*d&&(W=n.left)<=R&&(V||q||W||U)&&(g.loadHidden||le(f[t]))&&(I&&ae<3&&!l&&(H<3||oe<4)||se(f[t],o))){if(he(f[t]),a=!0,9<ae)break}else!a&&I&&!r&&ae<4&&oe<4&&2<H&&(T[0]||g.preloadAfterLoad)&&(T[0]||!l&&(V||q||W||U||"auto"!=f[t][y](g.sizesAttr)))&&(r=T[0]||f[t]);r&&!a&&he(r)}},$=ue,J=0,Z=g.throttleDelay,X=g.ricTimeout,Q=function(){K=!1,J=o.now(),$()},Y=l&&49<X?function(){l(Q,{timeout:X}),X!==g.ricTimeout&&(X=g.ricTimeout)}:t(function(){d(Q)},!0),ce=function(e){var t;(e=!0===e)&&(X=33),K||(K=!0,(t=Z-(o.now()-J))<0&&(t=0),e||t<9?Y():d(Y,t))},de=function(e){var t=e.target;t._lazyCache?delete t._lazyCache:(ie(e),b(t,g.loadedClass),x(t,g.loadingClass),_(t,pe),C(t,"lazyloaded"))},fe=t(de),pe=function(e){fe({target:e.target})},me=function(e){var t,n=e[y](g.srcsetAttr);(t=g.customMedia[e[y]("data-media")||e[y]("media")])&&e.setAttribute("media",t),n&&e.setAttribute("srcset",n)},ge=t(function(t,e,n,r,a){var o,i,l,s,u,c;(u=C(t,"lazybeforeunveil",e)).defaultPrevented||(r&&(n?b(t,g.autosizesClass):t.setAttribute("sizes",r)),i=t[y](g.srcsetAttr),o=t[y](g.srcAttr),a&&(l=t.parentNode,s=l&&f.test(l.nodeName||"")),c=e.firesLoad||"src"in t&&(i||o||s),u={target:t},b(t,g.loadingClass),c&&(clearTimeout(B),B=d(ie,2500),_(t,pe,!0)),s&&v.call(l.getElementsByTagName("source"),me),i?t.setAttribute("srcset",i):o&&!s&&(te.test(t.nodeName)?function(t,n){try{t.contentWindow.location.replace(n)}catch(e){t.src=n}}(t,o):t.src=o),a&&(i||s)&&w(t,{src:o})),t._lazyRace&&delete t._lazyRace,x(t,g.lazyClass),M(function(){var e=t.complete&&1<t.naturalWidth;c&&!e||(e&&b(t,"ls-is-cached"),de(u),t._lazyCache=!0,d(function(){"_lazyCache"in t&&delete t._lazyCache},9)),"lazy"==t.loading&&ae--},!0)}),he=function(e){if(!e._lazyRace){var t,n=ee.test(e.nodeName),r=n&&(e[y](g.sizesAttr)||e[y]("sizes")),a="auto"==r;(!a&&I||!n||!e[y]("src")&&!e.srcset||e.complete||c(e,g.errorClass)||!c(e,g.lazyClass))&&(t=C(e,"lazyunveilread").detail,a&&S.updateElem(e,!0,e.offsetWidth),e._lazyRace=!0,ae++,ge(e,t,a,r,n))}},ye=P(function(){g.loadMode=3,ce()}),ve=function(){3==g.loadMode&&(g.loadMode=2),ye()},be=function(){if(!I){if(o.now()-O<999)return void d(be,999);I=!0,g.loadMode=3,ce(),e("scroll",ve,!0)}},{_:function(){O=o.now(),m.elements=p.getElementsByClassName(g.lazyClass),T=p.getElementsByClassName(g.lazyClass+" "+g.preloadClass),e("scroll",ce,!0),e("resize",ce,!0),r.MutationObserver?new MutationObserver(ce).observe(h,{childList:!0,subtree:!0,attributes:!0}):(h[i]("DOMNodeInserted",ce,!0),h[i]("DOMAttrModified",ce,!0),setInterval(ce,999)),e("hashchange",ce,!0),["focus","mouseover","click","load","transitionend","animationend"].forEach(function(e){p[i](e,ce,!0)}),/d$|^c/.test(p.readyState)?be():(e("load",be),p[i]("DOMContentLoaded",ce),d(be,2e4)),m.elements.length?(ue(),M._lsFlush()):ce()},checkElems:ce,unveil:he,_aLSL:ve}),S=(N=t(function(e,t,n,r){var a,o,i;if(e._lazysizesWidth=r,r+="px",e.setAttribute("sizes",r),f.test(t.nodeName||""))for(a=t.getElementsByTagName("source"),o=0,i=a.length;o<i;o++)a[o].setAttribute("sizes",r);n.detail.dataAttr||w(e,n.detail)}),D=function(e,t,n){var r,a=e.parentNode;a&&(n=E(e,a,n),(r=C(e,"lazybeforesizes",{width:n,dataAttr:!!t})).defaultPrevented||(n=r.detail.width)&&n!==e._lazysizesWidth&&N(e,a,r,n))},L=P(function(){var e,t=j.length;if(t)for(e=0;e<t;e++)D(j[e])}),{_:function(){j=p.getElementsByClassName(g.autosizesClass),e("resize",L)},checkElems:L,updateElem:D}),z=function(){!z.i&&p.getElementsByClassName&&(z.i=!0,S._(),A._())};var j,N,D,L;var T,I,B,H,O,R,F,U,W,q,V,G,$,K,J,Z,X,Q,Y,ee,te,ne,re,ae,oe,ie,le,se,ue,ce,de,fe,pe,me,ge,he,ye,ve,be;var xe,_e,Ce,we,ke,Ee,Me;return d(function(){g.init&&z()}),m={cfg:g,autoSizer:S,loader:A,init:z,uP:w,aC:b,rC:x,hC:c,fire:C,gW:E,rAF:M}}(r,r.document),r.lazySizes=a,"object"==typeof t&&t.exports&&(t.exports=a)},{}],6:[function(e,t,n){t.exports=function(e,t,n){var r,a=window.document.createElement("link");if(t)r=t;else if(window.document.querySelectorAll){var o=window.document.querySelectorAll("style,link[rel=stylesheet],script");r=o[o.length-1]}else r=window.document.getElementsByTagName("script")[0];var i=window.document.styleSheets;return a.rel="stylesheet",a.href=e,a.media="only x",r.parentNode.insertBefore(a,t?r:r.nextSibling),a.onloadcssdefined=function(e){for(var t,n=0;n<i.length;n++)i[n].href&&i[n].href===a.href&&(t=!0);t?e():setTimeout(function(){a.onloadcssdefined(e)})},a.onloadcssdefined(function(){a.media=n||"all"}),a}},{}],7:[function(e,t,n){var r=r||e("hbsfy/runtime");r.registerHelper("compare",function(e,t,n,r){var a;if(arguments.length<3)throw new Error("Handlerbars Helper 'compare' needs 2 parameters");if(void 0===r&&(r=n,n=t,t="==="),!(a={"==":function(e,t){return e==t},"===":function(e,t){return e===t},"!=":function(e,t){return e!=t},"!==":function(e,t){return e!==t},"<":function(e,t){return e<t},">":function(e,t){return t<e},"<=":function(e,t){return e<=t},">=":function(e,t){return t<=e},typeof:function(e,t){return typeof e==t}})[t])throw new Error("Handlerbars Helper 'compare' doesn't know the operator "+t);return a[t](e,n)?r.fn(this):r.inverse(this)})},{"hbsfy/runtime":39}],8:[function(e,t,n){var r=e("./myAjax.bsfy"),a=e("./runWhenPresent.bsfy"),o=e("../templates/cartItems.hbs"),i=gg.cookie.getValue("gg_CartId");i&&r("/dy/cart/ajax/gg.html",function(n){a("js-cartItems",function(e){for(var t=0;t<e.length;t++)e[t].innerHTML=o(JSON.parse(n))})},"cmd=countItems&gcart="+i,{contentType:"application/x-www-form-urlencoded"})},{"../templates/cartItems.hbs":18,"./myAjax.bsfy":13,"./runWhenPresent.bsfy":15}],9:[function(e,t,n){function r(e,t){var n=e+"=",r=document.cookie,a=null;return 0<r.length&&(offset=r.indexOf(n),-1!=offset&&(offset+=n.length,end=r.indexOf(";",offset),-1==end&&(end=r.length),a=decodeURIComponent(r.substring(offset,end)))),a}function a(e,t,n,r){var a=e+"="+t;if(null!=n){var o=new Date,i=new Date;i.setTime(o.getTime()+864e5*n),a+="; expires="+i.toGMTString()}return null!=r&&(a+="; PATH="+r),document.cookie=a,null}function o(e,t,n,r){a(e,t=function(e){null!=e&&""!=e&&'"'!=e.charAt(0)&&'"'!=e.charAt(e.length-1)&&(e='"'+e+'"');return e}(t),n,r)}t.exports={getValue:r,set:a,setUnescaped:o,exists:function(e){return null!=r(e)},remove:function(e,t){t||(t="/"),o(e,"Deleted",-1,t)}}},{}],10:[function(e,t,n){t.exports=function(e,t,n){var r=!1;$("html").on("click touchstart",function(){!r&&$(e).is(":visible")&&($(e).hide(),n&&"function"==typeof n&&n($(e))),r=!1}).on("click touchstart",t,function(e){r=!0})}},{}],11:[function(e,t,n){var r=e("./runWhenPresent.bsfy"),a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;function o(){var e="sm";return 568<a&&(e="md"),1024<a&&(e="lg"),e}t.exports={loadBg:function(e,t,n){r(e,function(){document.getElementsByClassName(e)[0].style.backgroundImage="url('"+t+"_"+o()+"."+n+"')"})},loadSrc:function(e,t,n){r(e,function(){document.getElementsByClassName(e)[0].setAttribute("src",t+"_"+o()+"."+n)})},getSize:o}},{"./runWhenPresent.bsfy":15}],12:[function(a,e,t){a("./hide.bsfy");var o=a("./runWhenPresent.bsfy"),n=a("./myAjax.bsfy"),i=a("../../../login-static/headerContent.hbs"),r=a("../../../login-static/loggedInAsUser.hbs"),l=!1;function s(e){n(e,function(e){!function(e){var n=e||[];l&&console.log(n);n.url=window.location.href,n.modalLogin=gg.modalLogin;var r=i(n);o("js-login",function(e){for(var t=0;t<e.length;t++)e[t].innerHTML=r;n.succeeded?(a("./userCurrency.bsfy").updateDisplayedCurrencyCode(n.currencyCode),o("loginPerms",function(){var e=!1;document.getElementsByClassName("js-loginName")[0].addEventListener("click",function(){c(),e=!0}),document.getElementsByClassName("js-logout")[0].addEventListener("click",d,!1),document.addEventListener("click",function(){!e&&document.getElementsByClassName("loginPerms")[0].classList.contains("loginPerms_open")&&c(),e=!1}),document.addEventListener("touchstart",function(){!e&&document.getElementsByClassName("loginPerms")[0].classList.contains("loginPerms_open")&&c(),e=!1});var t=document.getElementsByClassName("loginPerms")[0];t.addEventListener("click",function(){e=!0}),t.addEventListener("touchstart",function(){e=!0}),document.getElementById("js-headerCta1")&&n.perms.some(function(e){return"My Dashboard"===e.label?(u("My Dashboard","/dy/v2/pe/dashboard/"),!0):"GG Rewards"===e.label?(u("GG Rewards","/dy/v2/pe/rewards/"),!0):"Grants"===e.label?(u("Grants","/dy/v2/pe/gmc/dashboard/gmc-dashboard.html"),!0):"Application"===e.label?(u("Application","/dy/v2/pe/manage/applications.html"),!0):"Gift Cards"===e.label?(u("Gift Cards","/dashboard/giftcard-bulk/"),!0):void 0})})):gg.modalLogin&&deferred.push(modalInit)}),null!=n&&null!=n.uauserid?deferred.push(function(){ga("set","&uid",n.uauserid),window.dataLayer=window.dataLayer||[],window.dataLayer.push({uauser_id:n.uauserid}),l&&console.log("uauserid=["+n.uauserid+"]")}):l&&console.log("anonymous")}(JSON.parse(e))})}function u(e,t){document.getElementById("js-headerCta1").style.display="inline-block",document.getElementById("js-headerCtaBtn1").innerText=e,document.getElementById("js-headerCtaBtn1").setAttribute("href",t),document.getElementById("js-headerCta2").style.display="inline-block",document.getElementById("js-headerCtaBtn2").innerText=e,document.getElementById("js-headerCtaBtn2").setAttribute("href",t)}function c(){document.getElementsByClassName("loginPerms")[0].classList.toggle("loginPerms_open")}function d(e){n("/dy/j_spring_security_logout?xlogout=true",function(){gg.cookie.remove("gg_rememberMe","/"),gg.cookie.remove("gg_globalgive","/"),gg.cookie.remove("ggLoginName","/"),e&&(location.href=location.protocol+"//"+location.host+"/index.html")})}null!=gg.cookie.getValue("ggLoginName")&&gg.cookie.exists("gg_globalgive")||!gg.cookie.exists("gg_rememberMe")?(l&&console.log("getting login info from /dy/v2/gg/login/json"),s("/dy/v2/gg/login/json")):s("/dy/j_spring_security_check?xautologin=true"),gg.cookie.getValue("gg_as_me")&&o("grid-parent",function(){var e=document.createElement("div");e.innerHTML=r().trim(),document.body.insertBefore(e.firstChild,document.body.firstChild)})},{"../../../login-static/headerContent.hbs":1,"../../../login-static/loggedInAsUser.hbs":2,"./hide.bsfy":10,"./myAjax.bsfy":13,"./runWhenPresent.bsfy":15,"./userCurrency.bsfy":17}],13:[function(e,t,n){t.exports=function(e,t,n,r){var a=new XMLHttpRequest;a.onreadystatechange=function(){a.readyState==XMLHttpRequest.DONE&&(200==a.status?t(a.responseText):400==a.status?console.log("Login failed: error 400"):console.log("Login failed: unknown error"))},n?(a.open("POST",e,!0),"auto"!=r.contentType&&a.setRequestHeader("Content-type",r.contentType),a.send(n)):(a.open("GET",e,!0),a.send())}},{}],14:[function(e,t,n){t.exports={getUrlParam:function(e,t){null==t&&(t=location.search);for(var n=!1,r=t.substring(1,t.length).split("&"),a=0;a<r.length;a++)param_name=r[a].substring(0,r[a].indexOf("=")),param_name==e&&(n=r[a].substring(r[a].indexOf("=")+1));return n||!1}}},{}],15:[function(e,t,n){t.exports=function e(t,n){var r=document.getElementsByClassName(t);r.length?n(r):setTimeout(function(){e(t,n)},100)}},{}],16:[function(e,t,n){e("../deps/ga.js");var r=e("./params.bsfy");function a(e){var t=document.referrer;if(-1==t.indexOf("globalgiving")||14<t.indexOf("globalgiving")||e&&null!=e){var n="ggRefCode",r=gg.cookie.getValue(n),a=r||e||t;a&&gg.cookie.setUnescaped(n,a,365,"/");var o=e||t||r;o&&gg.cookie.setUnescaped("ggConversionCode",o,null,"/")}}r.getUrlParam("rf")?a(r.getUrlParam("rf")):a(null),t.exports={assignRefAndConversionCode:a}},{"../deps/ga.js":4,"./params.bsfy":14}],17:[function(e,t,n){e("../helpers/compare.js"),t.exports={preferred:d,updateDisplayedCurrencyCode:u,setCurrentCartCurrencyCode:function(e){c(e),u(e)},disableUserSelection:function(){var e=document.getElementsByClassName(i);if(e.length)for(var t=0;t<e.length;t++)e[t].disabled=!0,e[t].classList.add("currency-locked"),e[t].parentNode.classList.add("icon-locked")}};var r=e("./runWhenPresent.bsfy"),a=e("../templates/currency.hbs"),o="preferredCurrency",i="js-global-user-currency-select";gg.userCurrencyModel=gg.userCurrencyModel||{currencies:{AUD:{symbol:"$",code:"AUD",name:"Australian Dollars",isAmbiguous:!0,minimumDonationAmount:10},CAD:{symbol:"$",code:"CAD",name:"Canadian Dollars",isAmbiguous:!0,minimumDonationAmount:10},EUR:{symbol:"€",code:"EUR",name:"Euros",isAmbiguous:!1,minimumDonationAmount:5},GBP:{symbol:"£",code:"GBP",name:"United Kingdom Pounds",isAmbiguous:!1,minimumDonationAmount:5},KES:{symbol:"KSh",code:"KES",name:"Kenya Shilling",isAmbiguous:!1,minimumDonationAmount:100,hidden:!0},USD:{symbol:"$",code:"USD",name:"United States Dollars",isAmbiguous:!1,minimumDonationAmount:10},ZAR:{symbol:"R",code:"ZAR",name:"South African Rand",isAmbiguous:!1,minimumDonationAmount:100,hidden:!0}},preferredCurrencyCode:c(),displayCurrencyCode:c(),reloadOnChange:!0,currencyChangeListeners:[u],preferredCurrency:d};var l=gg.userCurrencyModel;function s(e){for(var t=a(l),n=0;n<e.length;n++)e[n].innerHTML=t,e[n].onchange=function(){c(this[this.selectedIndex].value),f(d()),l.reloadOnChange?($(window).on("beforeunload",function(){$("html, body").animate({scrollTop:"0px"})}),location.reload()):$("html, body").animate({scrollTop:"0px"})};!function(){var e="$",t="USD";try{e=l.currencies[l.displayCurrencyCode].symbol,t=l.currencies[l.displayCurrencyCode].code}catch(e){}try{var n=document.getElementsByClassName("js-currencySymbol");if(n.length)for(var r=0;r<n.length;r++)n[r].innerHTML=e;var n=document.getElementsByClassName("js-currencyCode");if(n.length)for(var r=0;r<n.length;r++)n[r].value=t;if("USD"!=t){var n=document.getElementsByClassName("js-showForCurrency-"+t);if(n.length)for(var r=0;r<n.length;r++)n[r].style.display="";var n=document.getElementsByClassName("js-hideForCurrency-"+t);if(n.length)for(var r=0;r<n.length;r++)n[r].style.display="none"}}catch(e){}}()}function u(e){var t;void 0!==e&&(void 0!==l.currencies[e]&&(l.displayCurrencyCode=e,(t=document.getElementsByClassName(i)).length&&s(t)))}function c(e){var t,n=function(){if(gg.cookie.exists(o))return gg.cookie.getValue(o);return gg.geoIpCurrency||"USD"}();return 0==arguments.length||(e?(t=e,gg.cookie.set(o,t,null,"/")):gg.cookie.remove(o)),n}function d(){return l.currencies[c()]}function f(e){for(var t=l.currencyChangeListeners,n=0;n<t.length;n++)try{t[n](e)}catch(e){console.error(e)}}r(i,s)},{"../helpers/compare.js":7,"../templates/currency.hbs":19,"./runWhenPresent.bsfy":15}],18:[function(e,t,n){var r=e("hbsfy/runtime");t.exports=r.template({1:function(e,t,n,r,a){var o,i=null!=t?t:e.nullContext||{},l=n.helperMissing;return(null!=(o=(n.compare||t&&t.compare||l).call(i,null!=t?t.numItems:t,">",9,{name:"compare",hash:{},fn:e.program(2,a,0),inverse:e.noop,data:a}))?o:"")+(null!=(o=(n.compare||t&&t.compare||l).call(i,null!=t?t.numItems:t,"<=",9,{name:"compare",hash:{},fn:e.program(4,a,0),inverse:e.noop,data:a}))?o:"")},2:function(e,t,n,r,a){return'      <div class="circleIcon col_ggSecondary3 layout_abs layout_abs_bottomRightOutside text_fontSizeSmallest">9+</div>\n'},4:function(e,t,n,r,a){var o;return'      <div class="circleIcon col_ggSecondary3 layout_abs layout_abs_bottomRightOutside text_fontSizeSmaller">'+e.escapeExpression("function"==typeof(o=null!=(o=n.numItems||(null!=t?t.numItems:t))?o:n.helperMissing)?o.call(null!=t?t:e.nullContext||{},{name:"numItems",hash:{},data:a}):o)+"</div>\n"},compiler:[7,">= 4.0.0"],main:function(e,t,n,r,a){var o;return null!=(o=(n.compare||t&&t.compare||n.helperMissing).call(null!=t?t:e.nullContext||{},null!=t?t.numItems:t,">",0,{name:"compare",hash:{},fn:e.program(1,a,0),inverse:e.noop,data:a}))?o:""},useData:!0})},{"hbsfy/runtime":39}],19:[function(e,t,n){var r=e("hbsfy/runtime");t.exports=r.template({1:function(e,t,n,r,a,o,i){var l;return null!=(l=n.if.call(null!=t?t:e.nullContext||{},null!=t?t.hidden:t,{name:"if",hash:{},fn:e.program(2,a,0,o,i),inverse:e.program(5,a,0,o,i),data:a}))?l:""},2:function(e,t,n,r,a,o,i){var l;return null!=(l=(n.compare||t&&t.compare||n.helperMissing).call(null!=t?t:e.nullContext||{},a&&a.key,"===",null!=i[1]?i[1].displayCurrencyCode:i[1],{name:"compare",hash:{},fn:e.program(3,a,0,o,i),inverse:e.noop,data:a}))?l:""},3:function(e,t,n,r,a){var o,i=null!=t?t:e.nullContext||{},l=n.helperMissing,s="function",u=e.escapeExpression;return'         <option selected value="'+u(typeof(o=null!=(o=n.key||a&&a.key)?o:l)===s?o.call(i,{name:"key",hash:{},data:a}):o)+'">'+u(typeof(o=null!=(o=n.symbol||(null!=t?t.symbol:t))?o:l)===s?o.call(i,{name:"symbol",hash:{},data:a}):o)+" "+u(typeof(o=null!=(o=n.code||(null!=t?t.code:t))?o:l)===s?o.call(i,{name:"code",hash:{},data:a}):o)+"</option>\n"},5:function(e,t,n,r,a,o,i){var l,s,u=null!=t?t:e.nullContext||{},c=n.helperMissing,d="function",f=e.escapeExpression;return"      <option "+(null!=(l=(n.compare||t&&t.compare||c).call(u,a&&a.key,"===",null!=i[1]?i[1].displayCurrencyCode:i[1],{name:"compare",hash:{},fn:e.program(6,a,0,o,i),inverse:e.noop,data:a}))?l:"")+' value="'+f(typeof(s=null!=(s=n.key||a&&a.key)?s:c)===d?s.call(u,{name:"key",hash:{},data:a}):s)+'">'+f(typeof(s=null!=(s=n.symbol||(null!=t?t.symbol:t))?s:c)===d?s.call(u,{name:"symbol",hash:{},data:a}):s)+" "+f(typeof(s=null!=(s=n.code||(null!=t?t.code:t))?s:c)===d?s.call(u,{name:"code",hash:{},data:a}):s)+"</option>\n"},6:function(e,t,n,r,a){return"selected"},compiler:[7,">= 4.0.0"],main:function(e,t,n,r,a,o,i){var l;return null!=(l=n.each.call(null!=t?t:e.nullContext||{},null!=t?t.currencies:t,{name:"each",hash:{},fn:e.program(1,a,0,o,i),inverse:e.noop,data:a}))?l:""},useData:!0,useDepths:!0})},{"hbsfy/runtime":39}],20:[function(e,t,n){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}function a(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=e[n]);return t.default=e,t}n.__esModule=!0;var o=a(e("./handlebars/base")),i=r(e("./handlebars/safe-string")),l=r(e("./handlebars/exception")),s=a(e("./handlebars/utils")),u=a(e("./handlebars/runtime")),c=r(e("./handlebars/no-conflict"));function d(){var t=new o.HandlebarsEnvironment;return s.extend(t,o),t.SafeString=i.default,t.Exception=l.default,t.Utils=s,t.escapeExpression=s.escapeExpression,t.VM=u,t.template=function(e){return u.template(e,t)},t}var f=d();f.create=d,c.default(f),f.default=f,n.default=f,t.exports=n.default},{"./handlebars/base":21,"./handlebars/exception":24,"./handlebars/no-conflict":34,"./handlebars/runtime":35,"./handlebars/safe-string":36,"./handlebars/utils":37}],21:[function(e,t,n){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}n.__esModule=!0,n.HandlebarsEnvironment=c;var a=e("./utils"),o=r(e("./exception")),i=e("./helpers"),l=e("./decorators"),s=r(e("./logger"));n.VERSION="4.0.14";n.COMPILER_REVISION=7;n.REVISION_CHANGES={1:"<= 1.0.rc.2",2:"== 1.0.0-rc.3",3:"== 1.0.0-rc.4",4:"== 1.x.x",5:"== 2.0.0-alpha.x",6:">= 2.0.0-beta.1",7:">= 4.0.0"};var u="[object Object]";function c(e,t,n){this.helpers=e||{},this.partials=t||{},this.decorators=n||{},i.registerDefaultHelpers(this),l.registerDefaultDecorators(this)}c.prototype={constructor:c,logger:s.default,log:s.default.log,registerHelper:function(e,t){if(a.toString.call(e)===u){if(t)throw new o.default("Arg not supported with multiple helpers");a.extend(this.helpers,e)}else this.helpers[e]=t},unregisterHelper:function(e){delete this.helpers[e]},registerPartial:function(e,t){if(a.toString.call(e)===u)a.extend(this.partials,e);else{if(void 0===t)throw new o.default('Attempting to register a partial called "'+e+'" as undefined');this.partials[e]=t}},unregisterPartial:function(e){delete this.partials[e]},registerDecorator:function(e,t){if(a.toString.call(e)===u){if(t)throw new o.default("Arg not supported with multiple decorators");a.extend(this.decorators,e)}else this.decorators[e]=t},unregisterDecorator:function(e){delete this.decorators[e]}};var d=s.default.log;n.log=d,n.createFrame=a.createFrame,n.logger=s.default},{"./decorators":22,"./exception":24,"./helpers":25,"./logger":33,"./utils":37}],22:[function(e,t,n){"use strict";n.__esModule=!0,n.registerDefaultDecorators=function(e){o.default(e)};var r,a=e("./decorators/inline"),o=(r=a)&&r.__esModule?r:{default:r}},{"./decorators/inline":23}],23:[function(e,t,n){"use strict";n.__esModule=!0;var l=e("../utils");n.default=function(e){e.registerDecorator("inline",function(a,o,i,e){var t=a;return o.partials||(o.partials={},t=function(e,t){var n=i.partials;i.partials=l.extend({},n,o.partials);var r=a(e,t);return i.partials=n,r}),o.partials[e.args[0]]=e.fn,t})},t.exports=n.default},{"../utils":37}],24:[function(e,t,n){"use strict";n.__esModule=!0;var l=["description","fileName","lineNumber","message","name","number","stack"];function s(e,t){var n=t&&t.loc,r=void 0,a=void 0;n&&(e+=" - "+(r=n.start.line)+":"+(a=n.start.column));for(var o=Error.prototype.constructor.call(this,e),i=0;i<l.length;i++)this[l[i]]=o[l[i]];Error.captureStackTrace&&Error.captureStackTrace(this,s);try{n&&(this.lineNumber=r,Object.defineProperty?Object.defineProperty(this,"column",{value:a,enumerable:!0}):this.column=a)}catch(e){}}s.prototype=new Error,n.default=s,t.exports=n.default},{}],25:[function(e,t,n){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}n.__esModule=!0,n.registerDefaultHelpers=function(e){a.default(e),o.default(e),i.default(e),l.default(e),s.default(e),u.default(e),c.default(e)};var a=r(e("./helpers/block-helper-missing")),o=r(e("./helpers/each")),i=r(e("./helpers/helper-missing")),l=r(e("./helpers/if")),s=r(e("./helpers/log")),u=r(e("./helpers/lookup")),c=r(e("./helpers/with"))},{"./helpers/block-helper-missing":26,"./helpers/each":27,"./helpers/helper-missing":28,"./helpers/if":29,"./helpers/log":30,"./helpers/lookup":31,"./helpers/with":32}],26:[function(e,t,n){"use strict";n.__esModule=!0;var i=e("../utils");n.default=function(o){o.registerHelper("blockHelperMissing",function(e,t){var n=t.inverse,r=t.fn;if(!0===e)return r(this);if(!1===e||null==e)return n(this);if(i.isArray(e))return 0<e.length?(t.ids&&(t.ids=[t.name]),o.helpers.each(e,t)):n(this);if(t.data&&t.ids){var a=i.createFrame(t.data);a.contextPath=i.appendContextPath(t.data.contextPath,t.name),t={data:a}}return r(e,t)})},t.exports=n.default},{"../utils":37}],27:[function(e,t,n){"use strict";n.__esModule=!0;var r,f=e("../utils"),a=e("../exception"),p=(r=a)&&r.__esModule?r:{default:r};n.default=function(e){e.registerHelper("each",function(r,e){if(!e)throw new p.default("Must pass iterator to #each");var a=e.fn,t=e.inverse,n=0,o="",i=void 0,l=void 0;function s(e,t,n){i&&(i.key=e,i.index=t,i.first=0===t,i.last=!!n,l&&(i.contextPath=l+e)),o+=a(r[e],{data:i,blockParams:f.blockParams([r[e],e],[l+e,null])})}if(e.data&&e.ids&&(l=f.appendContextPath(e.data.contextPath,e.ids[0])+"."),f.isFunction(r)&&(r=r.call(this)),e.data&&(i=f.createFrame(e.data)),r&&"object"==typeof r)if(f.isArray(r))for(var u=r.length;n<u;n++)n in r&&s(n,n,n===r.length-1);else{var c=void 0;for(var d in r)r.hasOwnProperty(d)&&(void 0!==c&&s(c,n-1),c=d,n++);void 0!==c&&s(c,n-1,!0)}return 0===n&&(o=t(this)),o})},t.exports=n.default},{"../exception":24,"../utils":37}],28:[function(e,t,n){"use strict";n.__esModule=!0;var r,a=e("../exception"),o=(r=a)&&r.__esModule?r:{default:r};n.default=function(e){e.registerHelper("helperMissing",function(){if(1!==arguments.length)throw new o.default('Missing helper: "'+arguments[arguments.length-1].name+'"')})},t.exports=n.default},{"../exception":24}],29:[function(e,t,n){"use strict";n.__esModule=!0;var r=e("../utils");n.default=function(n){n.registerHelper("if",function(e,t){return r.isFunction(e)&&(e=e.call(this)),!t.hash.includeZero&&!e||r.isEmpty(e)?t.inverse(this):t.fn(this)}),n.registerHelper("unless",function(e,t){return n.helpers.if.call(this,e,{fn:t.inverse,inverse:t.fn,hash:t.hash})})},t.exports=n.default},{"../utils":37}],30:[function(e,t,n){"use strict";n.__esModule=!0,n.default=function(a){a.registerHelper("log",function(){for(var e=[void 0],t=arguments[arguments.length-1],n=0;n<arguments.length-1;n++)e.push(arguments[n]);var r=1;null!=t.hash.level?r=t.hash.level:t.data&&null!=t.data.level&&(r=t.data.level),e[0]=r,a.log.apply(a,e)})},t.exports=n.default},{}],31:[function(e,t,n){"use strict";n.__esModule=!0,n.default=function(e){e.registerHelper("lookup",function(e,t){return e?"constructor"!==t||e.propertyIsEnumerable(t)?e[t]:void 0:e})},t.exports=n.default},{}],32:[function(e,t,n){"use strict";n.__esModule=!0;var a=e("../utils");n.default=function(e){e.registerHelper("with",function(e,t){a.isFunction(e)&&(e=e.call(this));var n=t.fn;if(a.isEmpty(e))return t.inverse(this);var r=t.data;return t.data&&t.ids&&((r=a.createFrame(t.data)).contextPath=a.appendContextPath(t.data.contextPath,t.ids[0])),n(e,{data:r,blockParams:a.blockParams([e],[r&&r.contextPath])})})},t.exports=n.default},{"../utils":37}],33:[function(e,t,n){"use strict";n.__esModule=!0;var r=e("./utils"),o={methodMap:["debug","info","warn","error"],level:"info",lookupLevel:function(e){if("string"==typeof e){var t=r.indexOf(o.methodMap,e.toLowerCase());e=0<=t?t:parseInt(e,10)}return e},log:function(e){if(e=o.lookupLevel(e),"undefined"!=typeof console&&o.lookupLevel(o.level)<=e){var t=o.methodMap[e];console[t]||(t="log");for(var n=arguments.length,r=Array(1<n?n-1:0),a=1;a<n;a++)r[a-1]=arguments[a];console[t].apply(console,r)}}};n.default=o,t.exports=n.default},{"./utils":37}],34:[function(e,t,n){(function(r){"use strict";n.__esModule=!0,n.default=function(e){var t=void 0!==r?r:window,n=t.Handlebars;e.noConflict=function(){return t.Handlebars===e&&(t.Handlebars=n),e}},t.exports=n.default}).call(this,"undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{})},{}],35:[function(e,t,n){"use strict";n.__esModule=!0,n.checkRevision=function(e){var t=e&&e[0]||1,n=f.COMPILER_REVISION;if(t!==n){if(t<n){var r=f.REVISION_CHANGES[n],a=f.REVISION_CHANGES[t];throw new d.default("Template was precompiled with an older version of Handlebars than the current runtime. Please update your precompiler to a newer version ("+r+") or downgrade your runtime to an older version ("+a+").")}throw new d.default("Template was precompiled with a newer version of Handlebars than the current runtime. Please update your runtime to a newer version ("+e[1]+").")}},n.template=function(l,s){if(!s)throw new d.default("No environment passed to template");if(!l||!l.main)throw new d.default("Unknown template object: "+typeof l);l.main.decorator=l.main_d,s.VM.checkRevision(l.compiler);var i={strict:function(e,t){if(!(t in e))throw new d.default('"'+t+'" not defined in '+e);return e[t]},lookup:function(e,t){for(var n=e.length,r=0;r<n;r++)if(e[r]&&null!=e[r][t])return e[r][t]},lambda:function(e,t){return"function"==typeof e?e.call(t):e},escapeExpression:c.escapeExpression,invokePartial:function(e,t,n){n.hash&&(t=c.extend({},t,n.hash),n.ids&&(n.ids[0]=!0));e=s.VM.resolvePartial.call(this,e,t,n);var r=s.VM.invokePartial.call(this,e,t,n);null==r&&s.compile&&(n.partials[n.name]=s.compile(e,l.compilerOptions,s),r=n.partials[n.name](t,n));{if(null!=r){if(n.indent){for(var a=r.split("\n"),o=0,i=a.length;o<i&&(a[o]||o+1!==i);o++)a[o]=n.indent+a[o];r=a.join("\n")}return r}throw new d.default("The partial "+n.name+" could not be compiled when running in runtime-only mode")}},fn:function(e){var t=l[e];return t.decorator=l[e+"_d"],t},programs:[],program:function(e,t,n,r,a){var o=this.programs[e],i=this.fn(e);return t||a||r||n?o=p(this,e,i,t,n,r,a):o||(o=this.programs[e]=p(this,e,i)),o},data:function(e,t){for(;e&&t--;)e=e._parent;return e},merge:function(e,t){var n=e||t;return e&&t&&e!==t&&(n=c.extend({},t,e)),n},nullContext:Object.seal({}),noop:s.VM.noop,compilerInfo:l.compiler};function u(e){var t=arguments.length<=1||void 0===arguments[1]?{}:arguments[1],n=t.data;u._setup(t),!t.partial&&l.useData&&(n=function(e,t){t&&"root"in t||((t=t?f.createFrame(t):{}).root=e);return t}(e,n));var r=void 0,a=l.useBlockParams?[]:void 0;function o(e){return""+l.main(i,e,i.helpers,i.partials,n,a,r)}return l.useDepths&&(r=t.depths?e!=t.depths[0]?[e].concat(t.depths):t.depths:[e]),(o=m(l.main,o,i,t.depths||[],n,a))(e,t)}return u.isTop=!0,u._setup=function(e){e.partial?(i.helpers=e.helpers,i.partials=e.partials,i.decorators=e.decorators):(i.helpers=i.merge(e.helpers,s.helpers),l.usePartial&&(i.partials=i.merge(e.partials,s.partials)),(l.usePartial||l.useDecorators)&&(i.decorators=i.merge(e.decorators,s.decorators)))},u._child=function(e,t,n,r){if(l.useBlockParams&&!n)throw new d.default("must pass block params");if(l.useDepths&&!r)throw new d.default("must pass parent depths");return p(i,e,l[e],t,0,n,r)},u},n.wrapProgram=p,n.resolvePartial=function(e,t,n){e?e.call||n.name||(n.name=e,e=n.partials[e]):e="@partial-block"===n.name?n.data["partial-block"]:n.partials[n.name];return e},n.invokePartial=function(e,t,r){var a=r.data&&r.data["partial-block"];r.partial=!0,r.ids&&(r.data.contextPath=r.ids[0]||r.data.contextPath);var o=void 0;r.fn&&r.fn!==i&&function(){r.data=f.createFrame(r.data);var n=r.fn;o=r.data["partial-block"]=function(e){var t=arguments.length<=1||void 0===arguments[1]?{}:arguments[1];return t.data=f.createFrame(t.data),t.data["partial-block"]=a,n(e,t)},n.partials&&(r.partials=c.extend({},r.partials,n.partials))}();void 0===e&&o&&(e=o);{if(void 0===e)throw new d.default("The partial "+r.name+" could not be found");if(e instanceof Function)return e(t,r)}},n.noop=i;var r,c=function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=e[n]);return t.default=e,t}(e("./utils")),a=e("./exception"),d=(r=a)&&r.__esModule?r:{default:r},f=e("./base");function p(r,e,a,o,t,i,l){function n(e){var t=arguments.length<=1||void 0===arguments[1]?{}:arguments[1],n=l;return!l||e==l[0]||e===r.nullContext&&null===l[0]||(n=[e].concat(l)),a(r,e,r.helpers,r.partials,t.data||o,i&&[t.blockParams].concat(i),n)}return(n=m(a,n,r,l,o,i)).program=e,n.depth=l?l.length:0,n.blockParams=t||0,n}function i(){return""}function m(e,t,n,r,a,o){if(e.decorator){var i={};t=e.decorator(t,i,n,r&&r[0],a,o,r),c.extend(t,i)}return t}},{"./base":21,"./exception":24,"./utils":37}],36:[function(e,t,n){"use strict";function r(e){this.string=e}n.__esModule=!0,r.prototype.toString=r.prototype.toHTML=function(){return""+this.string},n.default=r,t.exports=n.default},{}],37:[function(e,t,n){"use strict";n.__esModule=!0,n.extend=l,n.indexOf=function(e,t){for(var n=0,r=e.length;n<r;n++)if(e[n]===t)return n;return-1},n.escapeExpression=function(e){if("string"!=typeof e){if(e&&e.toHTML)return e.toHTML();if(null==e)return"";if(!e)return e+"";e=""+e}if(!o.test(e))return e;return e.replace(a,i)},n.isEmpty=function(e){return!e&&0!==e||!(!c(e)||0!==e.length)},n.createFrame=function(e){var t=l({},e);return t._parent=e,t},n.blockParams=function(e,t){return e.path=t,e},n.appendContextPath=function(e,t){return(e?e+".":"")+t};var r={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","`":"&#x60;","=":"&#x3D;"},a=/[&<>"'`=]/g,o=/[&<>"'`=]/;function i(e){return r[e]}function l(e){for(var t=1;t<arguments.length;t++)for(var n in arguments[t])Object.prototype.hasOwnProperty.call(arguments[t],n)&&(e[n]=arguments[t][n]);return e}var s=Object.prototype.toString;n.toString=s;var u=function(e){return"function"==typeof e};u(/x/)&&(n.isFunction=u=function(e){return"function"==typeof e&&"[object Function]"===s.call(e)}),n.isFunction=u;var c=Array.isArray||function(e){return!(!e||"object"!=typeof e)&&"[object Array]"===s.call(e)};n.isArray=c},{}],38:[function(e,t,n){t.exports=e("./dist/cjs/handlebars.runtime").default},{"./dist/cjs/handlebars.runtime":20}],39:[function(e,t,n){t.exports=e("handlebars/runtime").default},{"handlebars/runtime":38}]},{},[3]);
-
-   
-      // combine the FOUR JS load events into one; much more resilient for poor internet/older computers
-      loadJS("http://www.globalgiving.org/v2/js/minimalWithJQuery.js.inc");
-   
-   
-
-   
-</script>
+<link rel="canonical" href="http://www.globalgiving.org/" />
 
 <script type="text/javascript" src="http://www.globalgiving.org/v2/js/eu_cookies.js" async></script>
 
-<!-- ****** STYLESHEETS ***** -->
 
+<!-- Open Graph data -->
+   <meta property="fb:app_id" content="75635195232" />
+   <meta property="og:title" content="GlobalGiving.org" />
+   <meta property="og:description" content="Donate to grassroots projects around the world" />
+   <meta property="og:image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
 
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="http://www.globalgiving.org/" />
 
-   <link rel="stylesheet" type="text/css" href="v2/css/minimal.css">
+   <meta property="og:site_name" content="GlobalGiving" />
 
-   
-   
-   <meta name="description" content="GlobalGiving is a nonprofit that connects donors with grassroots projects around the world. Donate to charity and see your impact with regular updates."/>
-   <link rel="canonical" href="http://www.globalgiving.org/" />
+   <meta name="twitter:card" content="summary_large_image" />
 
-	<!-- Open Graph data -->
-		<meta property="fb:app_id" content="75635195232" />
-		<meta property="og:title" content="GlobalGiving.org" />
-		<meta property="og:description" content="Donate to grassroots projects around the world" />
-		<meta property="og:image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
+<!-- Google Publisher Markup -->
+<link rel="publisher" href="https://plus.google.com/+globalgiving" />
 
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.globalgiving.org/" />
+<!-- Schema.org markup for Google+ -->
+   <meta itemprop="name" content="GlobalGiving.org" />
+   <meta itemprop="description" content="Donate to grassroots projects around the world" />
+   <meta itemprop="image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
 
-		<meta property="og:site_name" content="GlobalGiving" />
+<!-- Twitter Card data -->
+   <meta name="twitter:site" content="@globalgiving" />
+   <meta name="twitter:title" content="GlobalGiving.org" />
+   <meta name="twitter:description" content="Donate to grassroots projects around the world" />
+   <meta name="twitter:image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
 
-		<meta name="twitter:card" content="summary_large_image" />
-
-	<!-- Google Publisher Markup -->
-	<link rel="publisher" href="https://plus.google.com/+globalgiving" />
-
-	<!-- Schema.org markup for Google+ -->
-		<meta itemprop="name" content="GlobalGiving.org" />
-		<meta itemprop="description" content="Donate to grassroots projects around the world" />
-		<meta itemprop="image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
-
-	<!-- Twitter Card data -->
-		<meta name="twitter:site" content="@globalgiving" />
-		<meta name="twitter:title" content="GlobalGiving.org" />
-		<meta name="twitter:description" content="Donate to grassroots projects around the world" />
-		<meta name="twitter:image" content="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg" />
-
-   <link rel="image_src" href="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg"  />
-		<meta name="metadescription" content="Donate to grassroots projects around the world" />
-		<meta name="title" content="GlobalGiving.org" />
-		<meta name="description" content="Donate to grassroots projects around the world" />
-		<meta name="facebook_label" content="GlobalGiving.org" />
-
-   
+<link rel="image_src" href="http://www.globalgiving.org/img/logos/DefaultSocialShareImage.jpg"  />
+   <meta name="metadescription" content="Donate to grassroots projects around the world" />
+   <meta name="title" content="GlobalGiving.org" />
+   <meta name="description" content="Donate to grassroots projects around the world" />
+   <meta name="facebook_label" content="GlobalGiving.org" />
 
 
    <script type="text/javascript">
       deferred.push(["loadJS","homepage/homepage.js"]);
    </script>
-   <link rel="stylesheet" type="text/css" href="homepage/homepage.css" inline>
+   
+<!-- ****** STYLESHEETS ***** -->
 
-   
-   
-   
-   
+<link rel="stylesheet" type="text/css" href="v2/css/minimal.css">
+<link rel="stylesheet" type="text/css" href="homepage/homepage.css" inline>
 
    
 
 </head>
 
-
 <body class="text_sansLoaded text_titleLoaded  ">
-   
-   
-<header class="border_default border_top0 border_left0 border_right0">
-   
-   
-   <div class="grid-parent layout_centerVertical">
-      <div class="grid-12 grid-parent layout_centerVertical layout_rel">
-         <div class="grid-8 grid-md-5 grid-xl-4 grid-parent layout_centerVertical">
-            <a href="/" class="grid-12 grid-xl-5 box_horizontalPadded2 box_verticalPadded2 layout_centerVertical">
-            <img
-            
-                  src="http://www.globalgiving.org/img/logos/gg_horizontal_color_300.png"
-                  srcset="http://www.globalgiving.org/img/logos/gg_horizontal_color_300.png 1x,
-                     http://www.globalgiving.org/img/logos/gg_horizontal_color_600.png 2x"
-               
-                  alt="GlobalGiving homepage" style="width:220px; max-width:100%;"/>
-            </a>
-            
-            <span class="grid-0 grid-xl-flex box_leftPadded2 box_verticalPadded3 layout_rel headerSearch-parent">
-               &nbsp;<a href="/search/" class="box_leftPaddedHalf text_allCaps col_ggPrimary1DarkText zindex_popupTop layout_rel">Explore&nbsp;Projects</a>
-               &nbsp;&nbsp;
-               <img src="http://www.globalgiving.org/img/svg/icons/search_orange.svg" width="16" height="16" alt="magnifying glass" style="margin-top: 2px;">
-               <div class="grid-parent layout_abs layout_abs_left layout_abs_top zindex_popup border_default col_white headerSearch-box">
-                  <span class="grid-3"></span>
-<form class="grid-9 border_default layout_centerVertical layout_alignRight box_rightPadded2 box_topMarginHalf" action="/search/">
-   <input class="grid-11 input_text test-searchInput" type="text" placeholder="Search by keyword" name="keywords" title="Search by keyword"/>
-   <input type="image" src="http://www.globalgiving.org/img/svg/icons/search.svg" width="18" alt="search">
-</form>
-<div class="grid-12 box_verticalPadded3 text_fontSizeSmall col_ggPrimary5LightText">Find a vetted, verified project that you want to make a donation to:</div>
-<div class="grid-4 text_7n text_fontSizeSmall">
-   <div class="grid-12 col_defaultText box_bottomPadded2">Top Themes</div>
-   <div class="box_bottomPadded1"><a href="/themes/education/" class="col_ggPrimary5LightText">Education</a></div>
-   <div class="box_bottomPadded1"><a href="/themes/women-and-girls/" class="col_ggPrimary5LightText">Women&nbsp;and&nbsp;Girls</a></div>
-   <div class="box_bottomPadded1"><a href="/themes/health/" class="col_ggPrimary5LightText">Health</a></div>
-   <div class="box_bottomPadded1"><a href="/themes/economic-development/" class="col_ggPrimary5LightText">Economic&nbsp;Development</a></div>
-   <div class="box_bottomPadded1"><a href="/themes/environment/" class="col_ggPrimary5LightText">Environment</a></div>
-   <div class="box_bottomPadded3"><a href="/themes/hunger/" class="col_ggPrimary5LightText">Hunger</a></div>
-</div>
-<div class="grid-8 text_7n text_fontSizeSmall">
-   <div class="grid-parent">
-      <div class="grid5-2">
-         <div class="grid-12 col_defaultText box_bottomPadded2">Top Countries</div>
-         <div class="box_bottomPadded1"><a href="/locations/india/" class="col_ggPrimary5LightText">India</a></div>
-         <div class="box_bottomPadded1"><a href="/locations/united-states/" class="col_ggPrimary5LightText">United&nbsp;States</a></div>
-         <div class="box_bottomPadded1"><a href="/locations/kenya/" class="col_ggPrimary5LightText">Kenya</a></div>
-         <div class="box_bottomPadded1"><a href="/locations/nepal/" class="col_ggPrimary5LightText">Nepal</a></div>
-         <div class="box_bottomPadded1"><a href="/locations/pakistan/" class="col_ggPrimary5LightText">Pakistan</a></div>
-         <a href="/locations/mexico/" class="col_ggPrimary5LightText">Mexico</a>
-      </div>
-      <div class="grid5-3">
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=total_raised_usd" class="col_defaultText">Top&nbsp;Funded&nbsp;Projects</a></div>
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=approveddt_orig" class="col_defaultText">Newest&nbsp;Projects</a></div>
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=percent_funded" class="col_defaultText">Projects&nbsp;Closest&nbsp;to&nbsp;Goal</a></div>
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=staffFavorite" class="col_defaultText">Staff&nbsp;Favorites</a></div>
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=effectiveNonprofit" class="col_defaultText">Most&nbsp;Effective</a></div>
-         <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=siteVisitVerified" class="col_defaultText">Site&nbsp;Visit&nbsp;Verified</a></div>
-         <a href="/search/?selectedRecognitions=topRanked" class="col_defaultText">Top&nbsp;Ranked&nbsp;Projects</a>
-      </div>
-   </div>
-</div>
-<div class="grid-12 grid-parent box_bottomPadded1">
-   <div class="grid5-3"><a href="/search/" class="btn btn_simple">Browse All Projects</a></div>
-   <div class="grid5-2"><a href="/themes/disaster-recovery/" class="col_ggSecondary3Text">Disaster Relief Projects</a></div>
-</div>
-<hr class="grid-12"/>
-<div class="grid-12 grid-parent text_fontSizeSmall">
-   <a class="grid-4 col_defaultText box_topPadded2 box_bottomPadded1" href="/gifts/">Give a Gift Card</a>
-   <div class="grid-8 grid-parent">
-      <a class="grid5-2 col_defaultText box_topPadded2 box_bottomPadded1" href="/gifts/inhonor/">Donate in Honor</a>
-      <a class="grid5-3 col_defaultText box_topPadded2 box_bottomPadded1" href="/fundraisers/">Start a Fundraiser</a>
-   </div>
-   <a class="grid-4 col_defaultText box_topPadded1" href="/gifts/redeem.html">Redeem a Gift Card</a>
-   <a class="grid-8 col_defaultText box_topPadded1" href="/project-of-the-month-club/">Project of the Month Club</a>
-</div>
-               </div>
-            </span>
-            
-         </div>
-         
-         <div class="grid-0 grid-md-4 grid-ml-5 grid-xl-0 layout_alignRight">
-            <span class="box_leftPadded2 layout_centerVertical" id="js-headerCta2">
-               <script type="text/javascript">if(gg.cookie.exists("ggHasPERole")){document.getElementById("js-headerCta2").style.display="none";}</script>
-               <a href="/apply/" class="btn btn_simple btn_transparent btn_ggPrimary3" id="js-headerCtaBtn2">Apply&nbsp;to&nbsp;Join</a>
-            </span>
-         </div>
-         <div class="grid-0 grid24-xl-13 grid-xl-flex text_fontSizeSmall ">
-            <nav class="grid-12 grid-parent layout_centerVertical layout_alignRight">
-               <div class="grid-12">
-                  <a href="/aboutus/" class="col_ggPrimary5Text link_subtle text_4n">About&nbsp;Us</a>
-                  <a href="/learn/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Learn&nbsp;Library</a>
-                  <a href="/companies/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Corporate<span class="grid-0 grid-xxl-inline">&nbsp;Giving</span></a>
-                  <a href="/disasters/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Disasters</a>
-                  <a href="/gifts/" class="col_ggPrimary1Text link_subtle box_leftPadded2 text_7n"><img src="http://www.globalgiving.org/img/icons/giftcard_orange.svg" alt="Gift Card" border="0" style="padding-right: 5px; vertical-align: middle; height: 19px;">Gift Cards</a>
-                  <span class="box_leftPadded2 layout_centerVertical" id="js-headerCta1">
-                     <script type="text/javascript">if(gg.cookie.exists("ggHasPERole")){document.getElementById("js-headerCta1").style.display="none";}</script>
-                     <a href="/apply/" class="btn btn_simple btn_transparent btn_ggPrimary3" id="js-headerCtaBtn1">Apply&nbsp;to&nbsp;Join</a>
-                  </span>
-               </div>
-            </nav>
-         </div>
-         <div class="grid-4 grid-md-3 grid-ml-2 grid24-xl-3 layout_centerVertical layout_alignRight box_rightPadded2">
-            <a href="/dy/v2/checkout/billing/" class="layout_centerVertical layout_rel link_subtle">
-               <img src="http://www.globalgiving.org/img/svg/icons/giving_cart.svg" width=35 height=35 class="layout_block" alt="giving cart"/>
-               <span class="js-cartItems"></span>
-            </a>
-            <span class="col_ggPrimary3Text box_leftPadded5 box_rightPadded6 layout_inlineBlock js-login">
-               <img src="http://www.globalgiving.org/img/animated_gif/loading_arrow.gif" alt="Loading..."/>
-            </span>
-         </div>
-      </div>
-      <nav class="grid-12 grid-xl-0 layout_centerVertical border_default border_left0 border_right0 border_bottom0 box_verticalPadded2 box_horizontalPadded1 text_fontSizeSmall layout_center">
-         <a href="/search/" class="grid-xl-0 text_allCaps col_ggPrimary1DarkText layout_rel" style="white-space: nowrap;"><img
-            src="http://www.globalgiving.org/img/svg/icons/search_orange.svg" width="16" height="16" alt="magnifying glass" style="vertical-align: middle;"><span>&nbsp;Explore</span><span class="grid-0 grid-md-inline">&nbsp;Projects</span><a
-         href="/aboutus/" class="col_ggPrimary5Text link_subtle text_4n box_leftPadded3">About<span class="grid-0 grid-ml-inline">&nbsp;Us</span></a><a
-         href="/learn/" class="col_ggPrimary5Text link_subtle text_4n box_horizontalPadded3">Learn<span class="grid-0 grid-ml-inline">&nbsp;Library</span></a><a
-         href="/companies/" class="grid-0 grid-sm-inline col_ggPrimary5Text link_subtle text_4n box_rightPadded3">Corporate<span class="grid-0 grid-lg-inline">&nbsp;Giving</span></a><a
-         href="/disasters/" class="col_ggPrimary5Text link_subtle text_4n box_rightPadded3">Disasters</a><a
-         href="/gifts/" class="grid-0 grid-md-inline col_ggPrimary1Text link_subtle text_7n"><img src="http://www.globalgiving.org/img/icons/giftcard_orange.svg" alt="Gift Card" border="0" style="padding-right: 5px; vertical-align: middle; height: 19px;" class="grid-0 grid-ml-inline">Gift<span class="grid-0 grid-ml-inline"> Card</span>s</a>
-      </nav>
       
+      
+   <header class="border_default border_top0 border_left0 border_right0">
+      <div class="grid-parent layout_centerVertical">
+         <div class="grid-12 grid-parent layout_centerVertical layout_rel">
+            <div class="grid-8 grid-md-5 grid-xl-4 grid-parent layout_centerVertical">
+               <a href="/" class="grid-12 grid-xl-5 box_horizontalPadded2 box_verticalPadded2 layout_centerVertical">
+               <img
+               
+                     src="http://www.globalgiving.org/img/logos/gg_horizontal_color_300.png"
+                     srcset="http://www.globalgiving.org/img/logos/gg_horizontal_color_300.png 1x,
+                        http://www.globalgiving.org/img/logos/gg_horizontal_color_600.png 2x"
+                  
+                     alt="GlobalGiving homepage" style="width:220px; max-width:100%;"/>
+               </a>
+               
+               <span class="grid-0 grid-xl-flex box_leftPadded2 box_verticalPadded3 layout_rel headerSearch-parent">
+                  &nbsp;<a href="/search/" class="box_leftPaddedHalf text_allCaps col_ggPrimary1DarkText zindex_popupTop layout_rel">Explore&nbsp;Projects</a>
+                  &nbsp;&nbsp;
+                  <img src="http://www.globalgiving.org/img/svg/icons/search_orange.svg" width="16" height="16" alt="magnifying glass" style="margin-top: 2px;">
+                  <div class="grid-parent layout_abs layout_abs_left layout_abs_top zindex_popup border_default col_white headerSearch-box">
+                     <span class="grid-3"></span>
+   <form class="grid-9 border_default layout_centerVertical layout_alignRight box_rightPadded2 box_topMarginHalf" action="/search/">
+      <input class="grid-11 input_text test-searchInput" type="text" placeholder="Search by keyword" name="keywords" title="Search by keyword"/>
+      <input type="image" src="http://www.globalgiving.org/img/svg/icons/search.svg" width="18" alt="search">
+   </form>
+   <div class="grid-12 box_verticalPadded3 text_fontSizeSmall col_ggPrimary5LightText">Find a vetted, verified project that you want to make a donation to:</div>
+   <div class="grid-4 text_7n text_fontSizeSmall">
+      <div class="grid-12 col_defaultText box_bottomPadded2">Top Themes</div>
+      <div class="box_bottomPadded1"><a href="/themes/education/" class="col_ggPrimary5LightText">Education</a></div>
+      <div class="box_bottomPadded1"><a href="/themes/women-and-girls/" class="col_ggPrimary5LightText">Women&nbsp;and&nbsp;Girls</a></div>
+      <div class="box_bottomPadded1"><a href="/themes/health/" class="col_ggPrimary5LightText">Health</a></div>
+      <div class="box_bottomPadded1"><a href="/themes/economic-development/" class="col_ggPrimary5LightText">Economic&nbsp;Development</a></div>
+      <div class="box_bottomPadded1"><a href="/themes/environment/" class="col_ggPrimary5LightText">Environment</a></div>
+      <div class="box_bottomPadded3"><a href="/themes/hunger/" class="col_ggPrimary5LightText">Hunger</a></div>
    </div>
-</header>
-
-
-   
-      <div class="grid-12 grid-md-0 col_ggPrimary3 col_whiteText layout_center layout_centerVertical box_padded2" id="js-applyToJoin1">
-         <script type="text/javascript">if(gg.cookie.exists("ggHasPERole")){document.getElementById("js-applyToJoin1").style.display="none";}</script>
-         Do you work for a nonprofit?&nbsp;&nbsp;&nbsp;
-         <a href="/apply/" class="btn btn_transparent btn_simple box_verticalMargin1">Apply to Join</a>
+   <div class="grid-8 text_7n text_fontSizeSmall">
+      <div class="grid-parent">
+         <div class="grid5-2">
+            <div class="grid-12 col_defaultText box_bottomPadded2">Top Countries</div>
+            <div class="box_bottomPadded1"><a href="/locations/india/" class="col_ggPrimary5LightText">India</a></div>
+            <div class="box_bottomPadded1"><a href="/locations/united-states/" class="col_ggPrimary5LightText">United&nbsp;States</a></div>
+            <div class="box_bottomPadded1"><a href="/locations/kenya/" class="col_ggPrimary5LightText">Kenya</a></div>
+            <div class="box_bottomPadded1"><a href="/locations/nepal/" class="col_ggPrimary5LightText">Nepal</a></div>
+            <div class="box_bottomPadded1"><a href="/locations/pakistan/" class="col_ggPrimary5LightText">Pakistan</a></div>
+            <a href="/locations/mexico/" class="col_ggPrimary5LightText">Mexico</a>
+         </div>
+         <div class="grid5-3">
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=total_raised_usd" class="col_defaultText">Top&nbsp;Funded&nbsp;Projects</a></div>
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=approveddt_orig" class="col_defaultText">Newest&nbsp;Projects</a></div>
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?sortField=percent_funded" class="col_defaultText">Projects&nbsp;Closest&nbsp;to&nbsp;Goal</a></div>
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=staffFavorite" class="col_defaultText">Staff&nbsp;Favorites</a></div>
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=effectiveNonprofit" class="col_defaultText">Most&nbsp;Effective</a></div>
+            <div class="grid-12 box_bottomPadded1"><a href="/search/?selectedRecognitions=siteVisitVerified" class="col_defaultText">Site&nbsp;Visit&nbsp;Verified</a></div>
+            <a href="/search/?selectedRecognitions=topRanked" class="col_defaultText">Top&nbsp;Ranked&nbsp;Projects</a>
+         </div>
       </div>
+   </div>
+   <div class="grid-12 grid-parent box_bottomPadded1">
+      <div class="grid5-3"><a href="/search/" class="btn btn_simple">Browse All Projects</a></div>
+      <div class="grid5-2"><a href="/themes/disaster-recovery/" class="col_ggSecondary3Text">Disaster Relief Projects</a></div>
+   </div>
+   <hr class="grid-12"/>
+   <div class="grid-12 grid-parent text_fontSizeSmall">
+      <a class="grid-4 col_defaultText box_topPadded2 box_bottomPadded1" href="/gifts/">Give a Gift Card</a>
+      <div class="grid-8 grid-parent">
+         <a class="grid5-2 col_defaultText box_topPadded2 box_bottomPadded1" href="/gifts/inhonor/">Donate in Honor</a>
+         <a class="grid5-3 col_defaultText box_topPadded2 box_bottomPadded1" href="/fundraisers/">Start a Fundraiser</a>
+      </div>
+      <a class="grid-4 col_defaultText box_topPadded1" href="/gifts/redeem.html">Redeem a Gift Card</a>
+      <a class="grid-8 col_defaultText box_topPadded1" href="/project-of-the-month-club/">Project of the Month Club</a>
+   </div>
+                  </div>
+               </span>
+               
+            </div>
+            
+            <div class="grid-0 grid-md-4 grid-ml-5 grid-xl-0 layout_alignRight"></div>
+            <div class="grid-0 grid24-xl-13 grid-xl-flex text_fontSizeSmall ">
+               <nav class="grid-12 grid-parent layout_centerVertical layout_alignRight">
+                  <div class="grid-12">
+                     <a href="/aboutus/" class="col_ggPrimary5Text link_subtle text_4n">About&nbsp;Us</a>
+                     <a href="/learn/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Learn&nbsp;Library</a>
+                     <a href="/companies/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Corporate<span class="grid-0 grid-xxl-inline">&nbsp;Giving</span></a>
+                     <a href="/disasters/" class="col_ggPrimary5Text link_subtle box_leftPadded2 text_4n">Disasters</a>
+                     <a href="/gifts/" class="col_ggPrimary1Text link_subtle box_leftPadded2 text_7n"><img src="http://www.globalgiving.org/img/icons/giftcard_orange.svg" alt="Gift Card" border="0" style="padding-right: 5px; vertical-align: middle; height: 19px;">Gift Cards</a>
+                     <span class="box_leftPadded2 layout_centerVertical" id="js-headerCta1"></span>
+                  </div>
+               </nav>
+            </div>
+            <div class="grid-4 grid-md-3 grid-ml-2 grid24-xl-3 layout_centerVertical layout_alignRight box_rightPadded2">
+               <a href="/dy/v2/checkout/billing/" class="layout_centerVertical layout_rel link_subtle">
+                  <img src="http://www.globalgiving.org/img/svg/icons/giving_cart.svg" width=35 height=35 class="layout_block" alt="giving cart"/>
+                  <span class="js-cartItems"></span>
+               </a>
+               <span class="col_ggPrimary3Text box_leftPadded5 box_rightPadded6 layout_inlineBlock js-login">
+                  <img src="http://www.globalgiving.org/img/animated_gif/loading_arrow.gif" alt="Loading..."/>
+               </span>
+            </div>
+         </div>
+         <nav class="grid-12 grid-xl-0 layout_centerVertical border_default border_left0 border_right0 border_bottom0 box_verticalPadded2 box_horizontalPadded1 text_fontSizeSmall layout_center">
+            <a href="/search/" class="grid-xl-0 text_allCaps col_ggPrimary1DarkText layout_rel" style="white-space: nowrap;"><img
+               src="http://www.globalgiving.org/img/svg/icons/search_orange.svg" width="16" height="16" alt="magnifying glass" style="vertical-align: middle;"><span>&nbsp;Explore</span><span class="grid-0 grid-md-inline">&nbsp;Projects</span><a
+            href="/aboutus/" class="col_ggPrimary5Text link_subtle text_4n box_leftPadded3">About<span class="grid-0 grid-ml-inline">&nbsp;Us</span></a><a
+            href="/learn/" class="col_ggPrimary5Text link_subtle text_4n box_horizontalPadded3">Learn<span class="grid-0 grid-ml-inline">&nbsp;Library</span></a><a
+            href="/companies/" class="grid-0 grid-sm-inline col_ggPrimary5Text link_subtle text_4n box_rightPadded3">Corporate<span class="grid-0 grid-lg-inline">&nbsp;Giving</span></a><a
+            href="/disasters/" class="col_ggPrimary5Text link_subtle text_4n box_rightPadded3">Disasters</a><a
+            href="/gifts/" class="grid-0 grid-md-inline col_ggPrimary1Text link_subtle text_7n"><img src="http://www.globalgiving.org/img/icons/giftcard_orange.svg" alt="Gift Card" border="0" style="padding-right: 5px; vertical-align: middle; height: 19px;" class="grid-0 grid-ml-inline">Gift<span class="grid-0 grid-ml-inline"> Card</span>s</a>
+         </nav>
+         
+      </div>
+   </header>
+      
+   <div class="grid-12 grid-md-0 col_ggPrimary3 col_whiteText layout_center layout_centerVertical box_padded2" id="js-applyToJoin1">
+      <script type="text/javascript">if(gg.cookie.exists("ggHasPERole")){document.getElementById("js-applyToJoin1").style.display="none";}</script>
+      Do you work for a nonprofit?&nbsp;&nbsp;&nbsp;
+      <a href="/apply/" class="btn btn_transparent btn_simple box_verticalMargin1">Apply to Join</a>
+   </div>
 
-      <esi:remove>
-         <div class="grid-parent js-tileParent">
+   <!-- main project tiles -->
+   <esi:remove>
+      <div class="grid-parent js-tileParent">
    <div class="grid-12 grid-lg-6 grid-spacer js-tileMain">
 
 
    <div class="tile tile-lg col_ggSecondary1Darker layout_rel">
+
+   <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/14868/pict_featured_large.jpg?m&#x3D;1571252384000" class="img-cover" id="js-mainPhoto" srcset="https://files.globalgiving.org/pfil/14868/pict_featured.jpg?m&#x3D;1571252384000 480w, https://files.globalgiving.org/pfil/14868/pict_featured_large.jpg?m&#x3D;1571252384000 920w" sizes="(min-width: 64em) 50vw, 100vw" alt="Plant 30,000 native trees Costa Rican owned farms"/></a>
+   <div class="tile-content col_whiteText">
+      <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/"><span class="link_linkify text_fontSizeZero">Plant 30,000 native trees Costa Rican owned farms</span></a>
       
-      <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/14868/pict_featured_large.jpg?m&#x3D;1571252384000" class="img-cover" id="js-mainPhoto" srcset="https://files.globalgiving.org/pfil/14868/pict_featured.jpg?m&#x3D;1571252384000 480w, https://files.globalgiving.org/pfil/14868/pict_featured_large.jpg?m&#x3D;1571252384000 920w" sizes="(min-width: 64em) 50vw, 100vw" alt="Plant 30,000 native trees Costa Rican owned farms"/></a>
-      <div class="tile-content col_whiteText">
-         <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/"><span class="link_linkify text_fontSizeZero">Plant 30,000 native trees Costa Rican owned farms</span></a>
-         
-            <div class="col_ggSecondary1LighterText">
-               <a href="/dy/v2/content/search.html?q=*&fq=country:Costa%20Rica" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Costa Rica</a>
-               <h2 class="text_fontSizeLarger text_title text_4n box_topMarginHalf"><a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Plant 30,000 native trees Costa Rican owned farms</a></h2>
-            </div>
-            <div class="tile-hidden layout_center">
-               <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" class="grid-6 btn btn_short box_topMargin1 zindex_linkify">Donate</a>
-            </div>
-         
-      </div>
+         <div class="col_ggSecondary1LighterText">
+            <a href="/dy/v2/content/search.html?q=*&fq=country:Costa%20Rica" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Costa Rica</a>
+            <h2 class="text_fontSizeLarger text_title text_4n box_topMarginHalf"><a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Plant 30,000 native trees Costa Rican owned farms</a></h2>
+         </div>
+         <div class="tile-hidden layout_center">
+            <a href="/projects/plant-native-trees-community-save-rainforest-costa-rica/" class="grid-6 btn btn_short box_topMargin1 zindex_linkify">Donate</a>
+         </div>
+      
+   </div>
    </div>
    </div>
    <div class="grid-12 grid-lg-6 grid-parent layout_hideOverflow js-tileSecondary">
-         <div class="grid-6 grid-spacer">
+      <div class="grid-6 grid-spacer">
 
 
    <div class="tile col_ggSecondary1Darker layout_rel">
-      
-      <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/38583/pict_featured.jpg?m&#x3D;1575925666000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/38583/pict_featured.jpg?m&#x3D;1575925666000 480w, https://files.globalgiving.org/pfil/38583/pict_featured_large.jpg?m&#x3D;1575925666000 920w" sizes="(min-width: 64em) 25vw, 50vw" alt="Rescue and Conserve Mission Taiz Zoo Taiz, Yemen"/></a>
-      <div class="tile-content col_whiteText">
-         <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/"><span class="link_linkify text_fontSizeZero">Rescue and Conserve Mission Taiz Zoo Taiz, Yemen</span></a>
-         
 
-            <div class="col_ggSecondary1LighterText text_lineHeightNatural">
-               <a href="/dy/v2/content/search.html?q=*&fq=country:Yemen" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Yemen</a>
-               <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Rescue and Conserve Mission Taiz Zoo Taiz, Yemen</a></h4>
-            </div>
-            <div class="tile-hidden">
-               <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
-            </div>
-         
-      </div>
-   </div>
+   <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/38583/pict_featured.jpg?m&#x3D;1575925666000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/38583/pict_featured.jpg?m&#x3D;1575925666000 480w, https://files.globalgiving.org/pfil/38583/pict_featured_large.jpg?m&#x3D;1575925666000 920w" sizes="(min-width: 64em) 25vw, 50vw" alt="Rescue and Conserve Mission Taiz Zoo Taiz, Yemen"/></a>
+   <div class="tile-content col_whiteText">
+      <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/"><span class="link_linkify text_fontSizeZero">Rescue and Conserve Mission Taiz Zoo Taiz, Yemen</span></a>
+      
+
+         <div class="col_ggSecondary1LighterText text_lineHeightNatural">
+            <a href="/dy/v2/content/search.html?q=*&fq=country:Yemen" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Yemen</a>
+            <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Rescue and Conserve Mission Taiz Zoo Taiz, Yemen</a></h4>
          </div>
-         <div class="grid-6 grid-spacer">
+         <div class="tile-hidden">
+            <a href="/projects/rescue-and-conserve-mission-taiz-zoo-taiz-yemen/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
+         </div>
+      
+   </div>
+   </div>
+      </div>
+      <div class="grid-6 grid-spacer">
 
 
    <div class="tile col_ggSecondary1Darker layout_rel">
-      
-      <a href="/projects/help-an-animal-live-a-life-worth-living/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/43290/pict_featured.jpg?m&#x3D;1572965401000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/43290/pict_featured.jpg?m&#x3D;1572965401000 480w, https://files.globalgiving.org/pfil/43290/pict_featured_large.jpg?m&#x3D;1572965401000 920w, https://files.globalgiving.org/pfil/43290/pict_featured_jumbo.jpg?m&#x3D;1572965401000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Help an Animal Live a Life Worth Living"/></a>
-      <div class="tile-content col_whiteText">
-         <a href="/projects/help-an-animal-live-a-life-worth-living/"><span class="link_linkify text_fontSizeZero">Help an Animal Live a Life Worth Living</span></a>
-         
 
-            <div class="col_ggSecondary1LighterText text_lineHeightNatural">
-               <a href="/dy/v2/content/search.html?q=*&fq=country:Thailand" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Thailand</a>
-               <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/help-an-animal-live-a-life-worth-living/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Help an Animal Live a Life Worth Living</a></h4>
-            </div>
-            <div class="tile-hidden">
-               <a href="/projects/help-an-animal-live-a-life-worth-living/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
-            </div>
-         
-      </div>
-   </div>
+   <a href="/projects/help-an-animal-live-a-life-worth-living/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/43290/pict_featured.jpg?m&#x3D;1572965401000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/43290/pict_featured.jpg?m&#x3D;1572965401000 480w, https://files.globalgiving.org/pfil/43290/pict_featured_large.jpg?m&#x3D;1572965401000 920w, https://files.globalgiving.org/pfil/43290/pict_featured_jumbo.jpg?m&#x3D;1572965401000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Help an Animal Live a Life Worth Living"/></a>
+   <div class="tile-content col_whiteText">
+      <a href="/projects/help-an-animal-live-a-life-worth-living/"><span class="link_linkify text_fontSizeZero">Help an Animal Live a Life Worth Living</span></a>
+      
+
+         <div class="col_ggSecondary1LighterText text_lineHeightNatural">
+            <a href="/dy/v2/content/search.html?q=*&fq=country:Thailand" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Thailand</a>
+            <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/help-an-animal-live-a-life-worth-living/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Help an Animal Live a Life Worth Living</a></h4>
          </div>
-         <div class="grid-6 grid-spacer">
+         <div class="tile-hidden">
+            <a href="/projects/help-an-animal-live-a-life-worth-living/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
+         </div>
+      
+   </div>
+   </div>
+      </div>
+      <div class="grid-6 grid-spacer">
 
 
    <div class="tile col_ggSecondary1Darker layout_rel">
-      
-      <a href="/projects/help-educate-future-leaders-in-liberia/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/23799/pict_large.jpg?m&#x3D;1571861706000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/23799/pict_large.jpg?m&#x3D;1571861706000 480w, https://files.globalgiving.org/pfil/23799/pict_featured_large.jpg?m&#x3D;1571861706000 920w, https://files.globalgiving.org/pfil/23799/pict_featured_jumbo.jpg?m&#x3D;1571861706000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Help Educate Future Leaders in Liberia"/></a>
-      <div class="tile-content col_whiteText">
-         <a href="/projects/help-educate-future-leaders-in-liberia/"><span class="link_linkify text_fontSizeZero">Help Educate Future Leaders in Liberia</span></a>
-         
 
-            <div class="col_ggSecondary1LighterText text_lineHeightNatural">
-               <a href="/dy/v2/content/search.html?q=*&fq=country:Liberia" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Liberia</a>
-               <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/help-educate-future-leaders-in-liberia/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Help Educate Future Leaders in Liberia</a></h4>
-            </div>
-            <div class="tile-hidden">
-               <a href="/projects/help-educate-future-leaders-in-liberia/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
-            </div>
-         
-      </div>
-   </div>
+   <a href="/projects/help-educate-future-leaders-in-liberia/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/23799/pict_large.jpg?m&#x3D;1571861706000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/23799/pict_large.jpg?m&#x3D;1571861706000 480w, https://files.globalgiving.org/pfil/23799/pict_featured_large.jpg?m&#x3D;1571861706000 920w, https://files.globalgiving.org/pfil/23799/pict_featured_jumbo.jpg?m&#x3D;1571861706000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Help Educate Future Leaders in Liberia"/></a>
+   <div class="tile-content col_whiteText">
+      <a href="/projects/help-educate-future-leaders-in-liberia/"><span class="link_linkify text_fontSizeZero">Help Educate Future Leaders in Liberia</span></a>
+      
+
+         <div class="col_ggSecondary1LighterText text_lineHeightNatural">
+            <a href="/dy/v2/content/search.html?q=*&fq=country:Liberia" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Liberia</a>
+            <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/help-educate-future-leaders-in-liberia/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Help Educate Future Leaders in Liberia</a></h4>
          </div>
-         <div class="grid-6 grid-spacer">
+         <div class="tile-hidden">
+            <a href="/projects/help-educate-future-leaders-in-liberia/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
+         </div>
+      
+   </div>
+   </div>
+      </div>
+      <div class="grid-6 grid-spacer">
 
 
    <div class="tile col_ggSecondary1Darker layout_rel">
-      
-      <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/39682/pict_featured.jpg?m&#x3D;1568837795000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/39682/pict_featured.jpg?m&#x3D;1568837795000 480w, https://files.globalgiving.org/pfil/39682/pict_featured_large.jpg?m&#x3D;1568837795000 920w, https://files.globalgiving.org/pfil/39682/pict_featured_jumbo.jpg?m&#x3D;1568837795000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen"/></a>
-      <div class="tile-content col_whiteText">
-         <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/"><span class="link_linkify text_fontSizeZero">Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen</span></a>
-         
 
-            <div class="col_ggSecondary1LighterText text_lineHeightNatural">
-               <a href="/dy/v2/content/search.html?q=*&fq=country:Yemen" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Yemen</a>
-               <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen</a></h4>
-            </div>
-            <div class="tile-hidden">
-               <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
-            </div>
-         
+   <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;"><img src="https://files.globalgiving.org/pfil/39682/pict_featured.jpg?m&#x3D;1568837795000" class="img-cover"  srcset="https://files.globalgiving.org/pfil/39682/pict_featured.jpg?m&#x3D;1568837795000 480w, https://files.globalgiving.org/pfil/39682/pict_featured_large.jpg?m&#x3D;1568837795000 920w, https://files.globalgiving.org/pfil/39682/pict_featured_jumbo.jpg?m&#x3D;1568837795000 1840w" sizes="(min-width: 64em) 25vw, 50vw" alt="Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen"/></a>
+   <div class="tile-content col_whiteText">
+      <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/"><span class="link_linkify text_fontSizeZero">Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen</span></a>
+      
+
+         <div class="col_ggSecondary1LighterText text_lineHeightNatural">
+            <a href="/dy/v2/content/search.html?q=*&fq=country:Yemen" class="col_ggSecondary1LighterText text_fontSizeSmaller text_allCaps zindex_linkify layout_rel">Yemen</a>
+            <h4 class="text_fontSizeBase text_lineHeightMedium box_topMargin1"><a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" class="link_subtle col_whiteText zindex_linkify layout_rel" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Save lives 3025 children U5yr &amp; 1,360 PLW in Yemen</a></h4>
+         </div>
+         <div class="tile-hidden">
+            <a href="/projects/save-live-3025-children-u5yr-and-1360-plw-in-yemen/" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" onclick="gg.tracking.assignRefAndConversionCode('homepage'); return true;">Donate</a>
+         </div>
+      
+   </div>
+   </div>
       </div>
    </div>
-         </div>
    </div>
-</div>
 
-<script type="text/javascript">
+   <script type="text/javascript">
    function setTileHeights(){for(var e=window.innerWidth||document.documentElement.clientWidth||document.getElementsByTagName("body")[0].clientWidth,t=e<1024?1:2,i=document.getElementsByClassName("tile"),n=1;n<5;n++)i[n].style.height=Math.round(e/t/3-4)+"px";document.getElementsByClassName("tile-lg")[0].style.height=2*Math.round(e/t/3)-6+"px"}setTileHeights(),window.addEventListener?window.addEventListener("resize",setTileHeights,!1):window.attachEvent?window.attachEvent("onresize",setTileHeights):window.onresize=setTileHeights;
-</script>
+   </script>
 
-      </esi:remove>
-      <!--esi
-         <esi:include src="/featured-projects/" />
-      -->
+   </esi:remove>
+   <!-- END main project tiles -->
 
-          <div class="triangle-parent">
+   <div class="triangle-parent">
       <div class="triangle triangle_bottom triangle_small triangle_white grid-0 grid-lg-12 js-selector2"></div>
-    </div>
-   <div class="grid-parent col_ggPrimary5VeryLight box_horizontalPadded2 layout_center layout_centerVertical col_ggPrimary5Text">
-     <span class="grid-12 grid-lg-1 text_fontSizeSmall box_verticalPadded2 text_allCaps">Explore Projects:</span>
-
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilterFeatured js-selector2-target" href="javascript:void(0)">Featured</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="sortField=approveddt_orig">Newest</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="sortField=percent_funded">Nearly Funded</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=children">Children</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=disaster">Disaster</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=edu">Education</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=env">Environment</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=health">Health</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=tech">Technology</a>
-     <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=gender">Women &amp; Girls</a>
-
-     <a href="/search/" class="grid-12 grid-lg-1 text_fontSizeSmall col_ggPrimary5Text box_verticalPadded2 text_allCaps">See All &rsaquo;</a>
    </div>
 
+   <!-- explore projects -->
+   <div class="grid-parent col_ggPrimary5VeryLight box_horizontalPadded2 layout_center layout_centerVertical col_ggPrimary5Text">
+      <span class="grid-12 grid-lg-1 text_fontSizeSmall box_verticalPadded2 text_allCaps">Explore Projects:</span>
+
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilterFeatured js-selector2-target" href="javascript:void(0)">Featured</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="sortField=approveddt_orig">Newest</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="sortField=percent_funded">Nearly Funded</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=children">Children</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=disaster">Disaster</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=edu">Education</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=env">Environment</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=health">Health</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=tech">Technology</a>
+      <a class="grid-4 grid-md-2 grid-lg-1 text_fontSizeSmall box_verticalPadded2 col_ggPrimary5DarkText js-searchFilter" href="javascript:void(0)" data-filter="selectedThemes=gender">Women &amp; Girls</a>
+
+      <a href="/search/" class="grid-12 grid-lg-1 text_fontSizeSmall col_ggPrimary5Text box_verticalPadded2 text_allCaps">See All &rsaquo;</a>
+   </div>
+   <!-- END explore projects -->
 
 
 
 
 
 
-   <section class="layout_center  ">
+   <section class="layout_center">
       <div class="grid-11 grid-md-9 grid-lg-7 grid-xl-6 grid-xxl-5 box_verticalPadded5 layout_center">
          <div class="layout_centerVertical">
          <div class="img-bg box_verticalPadded2">
@@ -414,232 +366,94 @@
       </div>
    </section>
 
-
-
-
-
-
-   <section class="layout_center col_ggPrimary1 col_whiteText triangle-parent ">
-      <div class=" box_verticalPadded4 layout_center">
-         <div class="layout_centerVertical">
-         <div class="grid-parent grid-padder">
-
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">17</span><br/>
-     <div class="text_fontSizeLarge">years</div>
-   </div>
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">$433M</span><br/>
-     <div class="text_fontSizeLarge">dollars</div>
-   </div>
-  
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">985,451</span><br/>
-     <div class="text_fontSizeLarge">donors</div>
-   </div>
    
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">24,864</span><br/>
-     <div class="text_fontSizeLarge">projects</div>
-   </div>
-  
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">170</span><br/>
-     <div class="text_fontSizeLarge">countries</div>
-   </div>
+   <!-- what we do -->
+   <section class="layout_center whatWeDo">
+      <h2>what we do</h2>
+      <p>
+         We are a nonprofit that empowers local community-led nonprofits through tools, training, and support so they can make our world a better place.
+      </p>
+   </section>
+   <!-- END what we do -->
+
    
-   <div class="grid-4 grid-lg-2 box_verticalPadded1">
-     <span class="text_fontSizeLarger text_md_fontSizeJumbo text_title text_7n text_lineHeightLoose">305</span><br/>
-     <div class="text_fontSizeLarge">companies</div>
-   </div>
-         </div>
-         <div class="triangle triangle_bottom grid-0 grid-lg-12"></div>
-         </div>
+   <!-- calls to action -->
+   <section class="layout_center callsToAction">
+      <div class="callToAction--nonprofits">
+         <h3>For nonprofits</h3>
+         <h2>Support, training, and funding.</h2>
+         <p>
+            Nonprofit organizations, big or small, can get the exposure, support, encouragement, and tools they need to become more effective.
+         </p>
+         <button>Do more good</button>
+      </div>
+      <div class="callToAction--donors">
+         <h3>For donors</h3>
+         <h2>Safe, easy donations.</h2>
+         <p>
+            Donors everywhere can give confidently and securely to vetted, locally-driven organizations around the world.
+         </p>
+         <button>Find a project</button>
+      </div>
+      <div class="callToAction--companies">
+         <h3>For companies</h3>
+         <h2>Corporate giving, simplified.</h2>
+         <p>
+            Companies can do more good with their charitable donations through employee engagement, gift
+         </p>
+         <button>Apply to join</button>
       </div>
    </section>
+   <!-- END calls to action -->
 
-      <div class="grid-0 grid-md-12 grid-parent col_ggPrimary2Dark layout_rel layout_center">
-         <div class="grid-12 box_topPadded3 layout_abs zindex_overlayTop col_whiteText">
-            <h3 class="col_whiteText ruleBottom ruleBottom_ggPrimary1">How It Works</h3>
-         </div>
-         <div class="grid-12 grid-md-6 grid-lg-3 img-overlay layout_rel text_fontSizeSmaller text_md_fontSizeBase">
-            <div class="grid-9 layout_centerBoth box_topPadded6 zindex_overlayTop">
-               <div class="grid-12 sprite sprite_check text_fontSizeZero">check mark</div>
-               <div class="col_whiteText">
-                  <br/><br/>
-                  Nonprofits around the world apply and join GlobalGiving to access more funding, to build new skills, and to make important connections.
-                  <br/><br/>
-               </div>
-               <span class="col_ggPrimary3Text text_allCaps"><a href="/nonprofits/" class="col_inherit">Nonprofits</a></span>
-            </div>
-            <img src="http://www.globalgiving.org/img/banners/photoBlock5.jpg" class="img-cover" alt="A man stands with many students and an electrical device. Everyone is smiling."/>
-         </div>
-         <div class="grid-12 grid-md-6 grid-lg-3 img-overlay layout_rel text_fontSizeSmaller text_md_fontSizeBase">
-            <div class="grid-9 layout_centerBoth box_topPadded6 zindex_overlayTop">
-               <div class="grid-12 sprite sprite_gift text_fontSizeZero">gift</div>
-               <div class="col_whiteText">
-                  <br/><br/>
-                  People like you give what you can to your favorite projects; you feel great when you get updates about how your money is put to work by trusted organizations.
-                  <br/><br/>
-               </div>
-               <span class="col_ggPrimary1Text text_allCaps"><a href="/dy/v2/content/browse.html" class="col_inherit">Donors</a></span>
-            </div>
-            <img data-src="http://www.globalgiving.org/img/banners/photoBlock6.jpg" class="img-cover lazyload" alt="A woman smiles"/>
-         </div>
-         <div class="grid-12 grid-md-6 grid-lg-3 img-overlay layout_rel text_fontSizeSmaller text_md_fontSizeBase">
-            <div class="grid-9 layout_centerBoth box_topPadded6 zindex_overlayTop">
-               <div class="grid-12 sprite sprite_building text_fontSizeZero">building</div>
-               <div class="col_whiteText">
-                  <br/><br/>
-                  Generous companies and their employees further support high-impact projects, helping local communities thrive.
-                  <br/><br/>
-               </div>
-               <span class="col_ggPrimary2Text text_allCaps"><a href="/companies/" class="col_inherit">Companies</a></span>
-            </div>
-            <img data-src="http://www.globalgiving.org/img/banners/photoBlock7.jpg" class="img-cover lazyload" alt="A city street"/>
-         </div>
-         <div class="grid-12 grid-md-6 grid-lg-3 img-overlay layout_rel text_fontSizeSmaller text_md_fontSizeBase">
-            <div class="grid-9 layout_centerBoth box_topPadded6 zindex_overlayTop">
-               <div class="grid-12 sprite sprite_world text_fontSizeZero">world</div>
-               <div class="col_whiteText">
-                  <br/><br/>
-                  Nonprofits have the funding they need to listen to feedback and try out new ways to work; communities all over the globe get more awesome!
-                  <br/><br/>
-               </div>
-               <span class="col_ggPrimary4Text text_allCaps"><a href="/aboutus/impact" class="col_inherit">Our Impact</a></span>
-            </div>
-            <img data-src="http://www.globalgiving.org/img/banners/photoBlock8.jpg" class="img-cover lazyload" alt="A group of children brushes their teeth"/>
-         </div>
-      </div>
+   
+   <!-- why join: non profits -->
+   <section class="layout_center joinForNonprofits">
+      <h3>For non-profits</h3>
+      <h2>Why Join GlobalGiving?</h2>
+      <p>
+         You need a partner, not just a platform. Join organizations like yours from 170 Countries and get training and support tailored to you, access extra funding through our thematic matching campaigns, and improve your fundraising and your impact with our powerful suite of tools.
+      </p>
+      <button>Apply Now</button>
+   </section>
+   <!-- END why join: non profits -->
 
-
-      
-
-
-   <section class="layout_center  ">
-      <div class="grid-lg-padder box_horizontalPadded3 box_verticalPadded5 layout_center">
-         <div class="layout_centerVertical">
-         <h3 class="ruleBottom ruleBottom_ggPrimary1 box_bottomMargin2">Our Corporate Partners</h3>
-            <div class="img-bg box_verticalPadded2">
-               We've made it possible for more than <strong>300 companies to support local causes around the world</strong>. We help companies expand their philanthropic footprint with global nonprofit vetting, grantmaking, charitable gift cards, and digital campaigns to power cause marketing, disaster response, and employee engagement.
-            </div>
-         <div class="grid-parent layout_centerVertical">
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/vmware.png" alt="VMware logo"/>
-            </div>
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/ford.png" alt="Ford logo"/>
-            </div>
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/microsoft.png" alt="Microsoft logo"/>
-            </div>
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/discovery.png" alt="Discovery logo"/>
-            </div>
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/tripadvisor.png" alt="TripAdvisor logo"/>
-            </div>
-            <div class="grid-4 grid-md-2 box_padded2">
-               <img class="grid-12 lazyload" data-src="http://www.globalgiving.org/img/logos/companies/nike.png?v=gyb" alt="Give Your Best / Nike swoosh"/>
-            </div>
-         </div>
-         <div class="layout_center">
-            <a class="btn btn_simple btn_transparent btn_ggPrimary2" href="/companies/partners/#our-partners">View All Companies</a>
-         </div>
-
-         </div>
+   
+   <!-- join: companies -->
+   <section class="layout_center joinForCompanies">
+      <h2>Join the 200+ companies doing good around the world.</h2>
+      <p>
+         Is your company looking for ways to expand your philanthropic footprint? We have the tools and programs you need to enhance your corporate giving strategy, empower your stakeholders, and support local causes around the world.
+      </p>
+      <button>Learn More</button>
+      <div class="logosGrid">
+         <div class="logosGrid-logo"><img src="img/logos/microsoft_white.png"></div>
+         <div class="logosGrid-logo"><img src="img/logos/facebook-logo-hi-res.svg"></div>
+         <div class="logosGrid-logo"><img src="img/logos/ford_white.png"></div>
+         <div class="logosGrid-logo"><img src="img/logos/discovery_white.png"></div>
+         <div class="logosGrid-logo"><img src="img/logos/jetblue-white-reg.png"></div>
+         <div class="logosGrid-logo"><img src="img/logos/fidelity_white.png"></div>
       </div>
    </section>
-
-<section class="grid-parent img-bg img-bg-cover box_verticalPadded6 col_ggSecondary2Light js-giftCardSection">
-   <div class="grid-0 grid-md-6 grid-lg-8"></div>
-   <div class="grid-12 grid-md-6 grid-lg-4 layout_center box_horizontalPadded2">
-      <div class="text_title text_4n text_fontSizeJumbo text_letterSpacingLoose col_whiteText ruleBottom">Buy a Gift Card!</div>
-      <p class="col_whiteText">Give the gift of giving with a GlobalGiving gift card.</p>
-      <a href="/gifts/" class="btn btn_ggSecondary1 btn_simple">Shop for Gifts</a><br/>
-      <a href="/gifts/redeem.html" class="btn btn_simple btn_transparent box_topMargin2">Redeem a Gift Card</a>
-   </div>
-</section>
-      
-      
-
-
-
-
-
-   <section class="layout_center col_defaultBg ">
-      <div class="grid-padder box_horizontalPadded3 box_lg_horizontalPadded1 box_verticalPadded5 layout_center">
-         <div class="layout_centerVertical">
-
-<div class="grid-12 layout_center col_defaultBg">
-   <!--<h3>Disaster Relief + News</h3>-->
-   <h3>News</h3>
-</div>
-
-<div class="grid-parent box_topPadded2">
-      <a href="/leaderboards/year-end-campaign-2019/personalized/" class="grid-12 grid-md-4 box_paddedHalf box_bottomMargin4 link_stroke">
-
-         <img class="img-cover lazyload" data-src="https://assets.globalgiving.org/campaigns/2019/year-end-campaign/homepage.jpg" alt="Year-End Campaign"/>
-         <div class="col_white box_padded3">
-            <div class="js-equalHeight box_bottomPadded4">
-               <span class="text_sans text_7n col_defaultText">Year-End Campaign<br/></span>
-               <span class="text_sans text_4n col_defaultText">Give the best gift this season to your favorite nonprofit.</span>
-            </div>
-            <span class="text_sans text_8n text_allCaps text_fontSizeSmall col_ggPrimary1Text">Learn More&nbsp;&nbsp;&nbsp;&rsaquo;
-        </div>
-      </a>
-      <a href="/leaderboards/gg-giving-season-accelerator-2019/" class="grid-12 grid-md-4 box_paddedHalf box_bottomMargin4 link_stroke">
-
-         <img class="img-cover lazyload" data-src="http://www.globalgiving.org/img/leaderboard/2018/accelerator/homepage.png" alt="GlobalGiving Giving Season Accelerator"/>
-         <div class="col_white box_padded3">
-            <div class="js-equalHeight box_bottomPadded4">
-               <span class="text_sans text_7n col_defaultText">Giving Season Accelerator<br/></span>
-               <span class="text_sans text_4n col_defaultText">Want your donation to go even further? Help an amazing nonprofit join the GlobalGiving community? Every donation counts.</span>
-            </div>
-            <span class="text_sans text_8n text_allCaps text_fontSizeSmall col_ggPrimary1Text">Learn More&nbsp;&nbsp;&nbsp;&rsaquo;
-        </div>
-      </a>
+   <!-- END join: companies -->
 
    
-      <a href="/projects/girl-fund/?show=recurring" class="grid-12 grid-md-4 box_paddedHalf box_bottomMargin4 link_stroke">
-
-         <img class="img-cover lazyload" data-src="http://www.globalgiving.org/img/home/evergreen/girl-fund.jpg" alt="GlobalGiving Girl Fund"/>
-         <div class="col_white box_padded3">
-            <div class="js-equalHeight box_bottomPadded4">
-               <span class="text_sans text_7n col_defaultText">Join our Girl Fund<br/></span>
-               <span class="text_sans text_4n col_defaultText">Supports education, legal protection, health care, and job skills so that girls can thrive by making a monthly donation.</span>
-            </div>
-            <span class="text_sans text_8n text_allCaps text_fontSizeSmall col_ggPrimary1Text">Join the Monthly Giving Circle&nbsp;&nbsp;&nbsp;&rsaquo;
-        </div>
-      </a>
-   
-   
-   
-   
-   
-   
-
-   
-   
-   
-   
-
-</div>
-
-
-
-<!--  -->
-
-         </div>
-      </div>
+   <!-- disaster relief -->
+   <section class="layout_center">
+      <h2>Our approach to disaster relief and recovery</h2>
+      <p>
+         When a disaster happens, we can quickly send funds to the local organizations that are best suited to drive relief and recovery. Our vetted, locally-driven partner organizations are still hard at work driving recovery even after the news coverage has stopped. Local partners know what's best for their communities, especially in the face of disaster.
+      </p>
+      <button>Learn More</button>
    </section>
+   <!-- END disaster relief -->
 
 
 
 
 
 
-
+   <!-- Newsletter Signup -->
    <section class="layout_center  box_verticalPadded2">
       <div class="grid-lg-padder box_horizontalPadded3 box_verticalPadded5 layout_center">
          <div class="layout_centerVertical">
@@ -652,225 +466,221 @@
          </div>
       </div>
    </section>
-
+   <!-- END Newsletter Signup -->
    
 
    
          
-      <footer>
-         
-         <div class="col_ggSecondary1Darker">
-            <div class="box_topPadded4 box_bottomPadded3 print_noPrint layout_centerVertical">
-               <div class="grid-parent grid-padder box_lg_bottomPadded3 box_horizontalPadded2 grid-12 layout_center layout_centerVertical">
-               	<div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
-               		<a href="/"><img src="http://www.globalgiving.org/img/logos/gg_horizontal_white_400.png" alt="GlobalGiving" border="0" style="width:180px; max-width:100%;" /></a>
-               	</div>
-                  <div class="grid-12 grid-md-9 grid5-lg-2 box_bottomMargin3 box_lg_bottomMargin0 box_lg_rightPadded3 text_fontSizeSmaller col_ggSecondary1LighterText layout_lg_alignLeft">
-                     <span id="footer_descrip1">GlobalGiving makes it easy and safe for you to give to local projects anywhere in the world,</span>
-                     <span id="footer_descrip2">while providing nonprofits with the tools, training, and support they need to become more effective.</span>
-                  </div>
-                  <div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
-                  	<a href="https://support.globalgiving.org/" target="_blank" class="btn btn_transparent btn_simple btn_ggPrimary1">Help Center</a>
-                  </div>
-                  <div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
-                  	<div class="grid-9 grid-md-6 grid-lg-12">
-	                  	<div class="grid-parent">
-	                  		<div class="grid-4">
-	                  			<a href="http://facebook.com/globalgiving" class="layout_centerVertical">
-	                  			   <div class="sprite sprite_facebook_tan text_fontSizeZero">facebook</div>
-	                  			</a>
-	                  		</div>
-	                  		<div class="grid-4">
-	                  			<a href="http://twitter.com/globalgiving" class="layout_centerVertical">
-	                        		<div class="sprite sprite_twitter_tan text_fontSizeZero">twitter</div>
-	                        	</a>
-	                  		</div>
-	                  		<div class="grid-4">
-	                  			<a href="http://instagram.com/globalgiving" class="layout_centerVertical">
-	                        		<div class="sprite sprite_instagram_tan text_fontSizeZero">instagram</div>
-	                     		</a>
-	                  		</div>
-	                  	</div>
-                  	</div>
+   <footer>
+      
+      <div class="col_ggSecondary1Darker">
+         <div class="box_topPadded4 box_bottomPadded3 print_noPrint layout_centerVertical">
+            <div class="grid-parent grid-padder box_lg_bottomPadded3 box_horizontalPadded2 grid-12 layout_center layout_centerVertical">
+               <div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
+                  <a href="/"><img src="http://www.globalgiving.org/img/logos/gg_horizontal_white_400.png" alt="GlobalGiving" border="0" style="width:180px; max-width:100%;" /></a>
+               </div>
+               <div class="grid-12 grid-md-9 grid5-lg-2 box_bottomMargin3 box_lg_bottomMargin0 box_lg_rightPadded3 text_fontSizeSmaller col_ggSecondary1LighterText layout_lg_alignLeft">
+                  <span id="footer_descrip1">GlobalGiving makes it easy and safe for you to give to local projects anywhere in the world,</span>
+                  <span id="footer_descrip2">while providing nonprofits with the tools, training, and support they need to become more effective.</span>
+               </div>
+               <div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
+                  <a href="https://support.globalgiving.org/" target="_blank" class="btn btn_transparent btn_simple btn_ggPrimary1">Help Center</a>
+               </div>
+               <div class="grid-12 grid5-lg-1 box_bottomMargin3 box_lg_bottomMargin0 layout_lg_alignLeft">
+                  <div class="grid-9 grid-md-6 grid-lg-12">
+                     <div class="grid-parent">
+                        <div class="grid-4">
+                           <a href="http://facebook.com/globalgiving" class="layout_centerVertical">
+                              <div class="sprite sprite_facebook_tan text_fontSizeZero">facebook</div>
+                           </a>
+                        </div>
+                        <div class="grid-4">
+                           <a href="http://twitter.com/globalgiving" class="layout_centerVertical">
+                              <div class="sprite sprite_twitter_tan text_fontSizeZero">twitter</div>
+                           </a>
+                        </div>
+                        <div class="grid-4">
+                           <a href="http://instagram.com/globalgiving" class="layout_centerVertical">
+                              <div class="sprite sprite_instagram_tan text_fontSizeZero">instagram</div>
+                           </a>
+                        </div>
+                     </div>
                   </div>
                </div>
-               <div class="text_fontSizeZero"><div class="grid-0 grid-lg-12 barSpacer_short col_ggSecondary1Dark"></div></div>
-               <nav class="grid-12 grid-parent grid-padder box_topPadded2 box_horizontalPadded2">
-                  <hr class="grid-12 grid-lg-0" />
-                  <div class="grid-12 grid5-lg-1">
-                     <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
-                        <a href="/give/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Donors</a>
-                        <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
-                           <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
-                        </a>
-                     </h4>
-                     <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/gifts/">Give or Redeem Gift Cards</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/gifts/inhonor/">Donate in Honor</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/project-of-the-month-club/">Project of the Month Club</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/fundraisers/">Start a Fundraiser</a></div>
-                     </div>
-                  </div>
-                  <hr class="grid-12 grid-lg-0" />
-                  <div class="grid-12 grid5-lg-1">
-                     <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
-                        <a href="/nonprofits/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Nonprofits</a>
-                        <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
-                           <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
-                        </a>
-                     </h4>
-                     <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/apply/">Start an Application</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/nonprofits/">Why Join?</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="http://tools.blog.globalgiving.org/">Insider Blog</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/fee/">Pricing &amp; Fees</a></div>
-                     </div>
-                  </div>
-                  <hr class="grid-12 grid-lg-0" />
-                  <div class="grid-12 grid5-lg-1">
-                     <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
-                        <a href="/companies/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Companies</a>
-                        <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
-                           <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
-                        </a>
-                     </h4>
-                     <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/">Our Services</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/partners/">Our Partners</a></div>
-                        <!--<div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/case-studies/">Case Studies</a></div>-->
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/gift-cards/">Corporate Gift Cards</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/csr/">CSR Made Simple</a></div>
-                     </div>
-                  </div>
-                  <hr class="grid-12 grid-lg-0" />
-                  <div class="grid-12 grid5-lg-1">
-                     <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
-                        <a href="/aboutus/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">About Us</a>
-                        <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
-                           <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
-                        </a>
-                     </h4>
-                     <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/who-we-are/staff/">Our Team</a></div>
-                        <!--<div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/impact/">Our Impact</a></div>-->
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/jobs/">Jobs</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" target="_blank" href="https://support.globalgiving.org/">FAQs</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/contact/">Contact Us</a></div>
-                     </div>
-                  </div>
-                  <hr class="grid-12 grid-lg-0" />
-                  <div class="grid-12 grid5-lg-1">
-                     <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
-                        <a href="/learn/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Learn Library</a>
-                        <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
-                           <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
-                        </a>
-                     </h4>
-                     <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/nonprofits/">Nonprofit Resources</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/companies/">Corporate Giving Resources</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/donors/">Donor Resources</a></div>
-                        <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/category/success-stories/">Success Stories</a></div>
-                     </div>
-                  </div>
-                  <hr class="grid-12 grid-lg-0" />
-               </nav>
             </div>
             <div class="text_fontSizeZero"><div class="grid-0 grid-lg-12 barSpacer_short col_ggSecondary1Dark"></div></div>
-            <div class="grid-padder grid-parent layout_centerVertical box_horizontalPadded2 box_bottomPadded1">
-               <a href="/aboutus/news-media/" class="grid-12 grid-lg-6 box_topPadded1 layout_center layout_lg_alignLeft">
-                  <div class="text_fontSizeZero">
-                     <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_wp layout_inlineBlock">Washington Post</div></div>
-                     <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_cnn layout_inlineBlock">CNN</div></div>
-                     <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_npr layout_inlineBlock">NPR</div></div>
-                     <div class="sprite sprite_nyt layout_inlineBlock">New York Times</div>
+            <nav class="grid-12 grid-parent grid-padder box_topPadded2 box_horizontalPadded2">
+               <hr class="grid-12 grid-lg-0" />
+               <div class="grid-12 grid5-lg-1">
+                  <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
+                     <a href="/give/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Donors</a>
+                     <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
+                        <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
+                     </a>
+                  </h4>
+                  <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/gifts/">Give or Redeem Gift Cards</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/gifts/inhonor/">Donate in Honor</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/project-of-the-month-club/">Project of the Month Club</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/fundraisers/">Start a Fundraiser</a></div>
                   </div>
-               </a>
-               <div class="layout_center layout_lg_alignRight grid-12 grid-lg-6 box_topPadded1 box_bottomPadded3 box_lg_bottomPadded0">
-                  <a href="http://www.bbb.org/charity-reviews/national/other/globalgiving-foundation-in-washington-dc-3204" target="_blank" class="box_rightPadded2 text_fontSizeZero"><div class="sprite sprite_bbb layout_inlineBlock box_rightPadded2">BBB Accredited Charity</div></a>
-                  <a href="http://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=11648" target="_blank" class="box_rightPadded2 text_fontSizeZero"><div class="sprite sprite_charityNavigator layout_inlineBlock box_rightPadded2">Charity Navigator Four Star Charity</div></a>
-                  <a href="https://www.mcafeesecure.com/verify?host=www.globalgiving.org" target="_blank" class="text_fontSizeZero"><div class="sprite sprite_secureSite layout_inlineBlock">SSL- and PCI-Verified Secure Site</div></a>
                </div>
+               <hr class="grid-12 grid-lg-0" />
+               <div class="grid-12 grid5-lg-1">
+                  <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
+                     <a href="/nonprofits/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Nonprofits</a>
+                     <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
+                        <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
+                     </a>
+                  </h4>
+                  <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/apply/">Start an Application</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/nonprofits/">Why Join?</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="http://tools.blog.globalgiving.org/">Insider Blog</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/fee/">Pricing &amp; Fees</a></div>
+                  </div>
+               </div>
+               <hr class="grid-12 grid-lg-0" />
+               <div class="grid-12 grid5-lg-1">
+                  <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
+                     <a href="/companies/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Companies</a>
+                     <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
+                        <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
+                     </a>
+                  </h4>
+                  <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/">Our Services</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/partners/">Our Partners</a></div>
+                     <!--<div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/case-studies/">Case Studies</a></div>-->
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/companies/gift-cards/">Corporate Gift Cards</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/csr/">CSR Made Simple</a></div>
+                  </div>
+               </div>
+               <hr class="grid-12 grid-lg-0" />
+               <div class="grid-12 grid5-lg-1">
+                  <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
+                     <a href="/aboutus/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">About Us</a>
+                     <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
+                        <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
+                     </a>
+                  </h4>
+                  <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/who-we-are/staff/">Our Team</a></div>
+                     <!--<div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/impact/">Our Impact</a></div>-->
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/jobs/">Jobs</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" target="_blank" href="https://support.globalgiving.org/">FAQs</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/aboutus/contact/">Contact Us</a></div>
+                  </div>
+               </div>
+               <hr class="grid-12 grid-lg-0" />
+               <div class="grid-12 grid5-lg-1">
+                  <h4 class="grid-parent box_verticalMargin1 layout_centerVertical">
+                     <a href="/learn/" class="grid-11 grid-lg-12 col_ggPrimary1Text text_title">Learn Library</a>
+                     <a href="javascript:void(0)" class="grid-1 grid-lg-0" onclick="$(this).children().first().toggleClass('icon_chevron-rotateDown').end().end().parent().next().slideToggle();">
+                        <img src="http://www.globalgiving.org/img/svg/icons/icon_chevron.svg" alt="toggle arrow" class="icon_chevron" width="16">
+                     </a>
+                  </h4>
+                  <div class="grid-0 grid-lg-12 text_fontSizeSmaller">
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/nonprofits/">Nonprofit Resources</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/companies/">Corporate Giving Resources</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/donors/">Donor Resources</a></div>
+                     <div class="box_bottomPadded2"><a class="col_whiteText" href="/learn/category/success-stories/">Success Stories</a></div>
+                  </div>
+               </div>
+               <hr class="grid-12 grid-lg-0" />
+            </nav>
+         </div>
+         <div class="text_fontSizeZero"><div class="grid-0 grid-lg-12 barSpacer_short col_ggSecondary1Dark"></div></div>
+         <div class="grid-padder grid-parent layout_centerVertical box_horizontalPadded2 box_bottomPadded1">
+            <a href="/aboutus/news-media/" class="grid-12 grid-lg-6 box_topPadded1 layout_center layout_lg_alignLeft">
+               <div class="text_fontSizeZero">
+                  <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_wp layout_inlineBlock">Washington Post</div></div>
+                  <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_cnn layout_inlineBlock">CNN</div></div>
+                  <div class="layout_inlineBlock box_rightPadded2"><div class="sprite sprite_npr layout_inlineBlock">NPR</div></div>
+                  <div class="sprite sprite_nyt layout_inlineBlock">New York Times</div>
+               </div>
+            </a>
+            <div class="layout_center layout_lg_alignRight grid-12 grid-lg-6 box_topPadded1 box_bottomPadded3 box_lg_bottomPadded0">
+               <a href="http://www.bbb.org/charity-reviews/national/other/globalgiving-foundation-in-washington-dc-3204" target="_blank" class="box_rightPadded2 text_fontSizeZero"><div class="sprite sprite_bbb layout_inlineBlock box_rightPadded2">BBB Accredited Charity</div></a>
+               <a href="http://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=11648" target="_blank" class="box_rightPadded2 text_fontSizeZero"><div class="sprite sprite_charityNavigator layout_inlineBlock box_rightPadded2">Charity Navigator Four Star Charity</div></a>
+               <a href="https://www.mcafeesecure.com/verify?host=www.globalgiving.org" target="_blank" class="text_fontSizeZero"><div class="sprite sprite_secureSite layout_inlineBlock">SSL- and PCI-Verified Secure Site</div></a>
             </div>
          </div>
+      </div>
 
-         <div class="col_ggSecondary1 layout_centerVertical">
-            <div class="grid-padder box_md_horizontalPadded2 grid-parent layout_centerVertical">
-               <div class="grid-12 grid-lg-7 layout_center layout_lg_alignLeft text_fontSizeSmallest box_topPadded2 box_lg_topPadded0">
-                  <address class="layout_inlineBlock col_ggSecondary1LighterText text_4n">
-                     <!-- #### The line of text below is used in site uptime monitors. Any edits to this line need to be coordinated with DevOps #### -->
-                     &copy;&nbsp;Copyright&nbsp;2000-2019&nbsp;GlobalGiving, a&nbsp;501(c)3&nbsp;organization (EIN:&nbsp;30&#8209;0108263;&nbsp;UK&nbsp;Charity&nbsp;#&nbsp;1122823)
-                     <!-- #### The line of text above is used in site uptime monitors. Any edits to this line need to be coordinated with DevOps #### -->
-                     <br/>
-                     <span class="col_ggSecondary1LighterText">1110 Vermont Ave NW, Ste 550, Washington, DC 20005, USA</span>
-                     <span class="col_whiteText">&nbsp;&nbsp;Questions?&nbsp;&nbsp;<a class="col_ggPrimary1Text" href="/aboutus/contact/">Contact Us</a></span>
-                  </address>
+      <div class="col_ggSecondary1 layout_centerVertical">
+         <div class="grid-padder box_md_horizontalPadded2 grid-parent layout_centerVertical">
+            <div class="grid-12 grid-lg-7 layout_center layout_lg_alignLeft text_fontSizeSmallest box_topPadded2 box_lg_topPadded0">
+               <address class="layout_inlineBlock col_ggSecondary1LighterText text_4n">
+                  <!-- #### The line of text below is used in site uptime monitors. Any edits to this line need to be coordinated with DevOps #### -->
+                  &copy;&nbsp;Copyright&nbsp;2000-2019&nbsp;GlobalGiving, a&nbsp;501(c)3&nbsp;organization (EIN:&nbsp;30&#8209;0108263;&nbsp;UK&nbsp;Charity&nbsp;#&nbsp;1122823)
+                  <!-- #### The line of text above is used in site uptime monitors. Any edits to this line need to be coordinated with DevOps #### -->
+                  <br/>
+                  <span class="col_ggSecondary1LighterText">1110 Vermont Ave NW, Ste 550, Washington, DC 20005, USA</span>
+                  <span class="col_whiteText">&nbsp;&nbsp;Questions?&nbsp;&nbsp;<a class="col_ggPrimary1Text" href="/aboutus/contact/">Contact Us</a></span>
+               </address>
+            </div>
+            <div class="grid-12 grid-lg-5 box_leftPaddedHalf layout_centerVertical grid-parent layout_center layout_lg_alignRight text_fontSizeSmallest print_noPrint text_allCaps text_7n col_ggPrimary1Text box_verticalPadded3">
+               <div class="grid-12 grid-md-inline layout_center grid-parent layout_centerVertical text_fontSizeLarge layout_rel box_bottomPadded3 box_md_bottomPadded0">
+                  <select class="col_ggPrimary1DarkText col_transparent border_primary1 border_thin input_preventDisplay js-global-user-currency-select" title="Choose your currency"></select>
                </div>
-               <div class="grid-12 grid-lg-5 box_leftPaddedHalf layout_centerVertical grid-parent layout_center layout_lg_alignRight text_fontSizeSmallest print_noPrint text_allCaps text_7n col_ggPrimary1Text box_verticalPadded3">
-                  <div class="grid-12 grid-md-inline layout_center grid-parent layout_centerVertical text_fontSizeLarge layout_rel box_bottomPadded3 box_md_bottomPadded0">
-                     <select class="col_ggPrimary1DarkText col_transparent border_primary1 border_thin input_preventDisplay js-global-user-currency-select" title="Choose your currency"></select>
-                  </div>
-                  <span class="grid-0 grid-md-inline box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/aboutus/privacy/">Privacy</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/aboutus/cookies/">Cookies</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/aboutus/terms/">Terms</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/aboutus/fee/">Pricing</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/api/">API</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
-                  <a class="col_whiteText" href="/open-data/">Data</a>
-               </div>
+               <span class="grid-0 grid-md-inline box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/aboutus/privacy/">Privacy</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/aboutus/cookies/">Cookies</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/aboutus/terms/">Terms</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/aboutus/fee/">Pricing</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/api/">API</a><span class="box_horizontalPadded1 box_lg_horizontalPadded0">&nbsp;&middot;&nbsp;</span>
+               <a class="col_whiteText" href="/open-data/">Data</a>
             </div>
          </div>
-      </footer>
+      </div>
+   </footer>
       
 
       
-         <!-- ## This variable is used to include an additional JavaScript file. -->
          
-      <script type="application/ld+json">
-         {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "url": "http://www.globalgiving.org/",
-            "potentialAction": {
-               "@type": "SearchAction",
-               "target": "http://www.globalgiving.org/dy/v2/content/search.html?q={search_term_string}",
-               "query-input": "required name=search_term_string"
-            }
+   <script type="application/ld+json">
+      {
+         "@context": "http://schema.org",
+         "@type": "WebSite",
+         "url": "http://www.globalgiving.org/",
+         "potentialAction": {
+            "@type": "SearchAction",
+            "target": "http://www.globalgiving.org/dy/v2/content/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
          }
-      </script>
-      <script type="application/ld+json">
-         {
-            "@context": "http://schema.org/",
-            "@type": "Organization",
-            "name": "GlobalGiving",
-            "alternateName": "GlobalGiving Foundation",
-            "url": "http://www.globalgiving.org/",
-            "logo": "http://www.globalgiving.org/img/logos/gg_vertical_color.png",
-            "taxID": "30‑0108263",
-            "address": {
-               "@type": "PostalAddress",
-               "addressLocality": "Washington",
-               "addressRegion": "DC",
-               "postalCode": "20005",
-               "streetAddress": "1110 Vermont Ave NW Ste 550"
-            }
+      }
+   </script>
+   <script type="application/ld+json">
+      {
+         "@context": "http://schema.org/",
+         "@type": "Organization",
+         "name": "GlobalGiving",
+         "alternateName": "GlobalGiving Foundation",
+         "url": "http://www.globalgiving.org/",
+         "logo": "http://www.globalgiving.org/img/logos/gg_vertical_color.png",
+         "taxID": "30‑0108263",
+         "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Washington",
+            "addressRegion": "DC",
+            "postalCode": "20005",
+            "streetAddress": "1110 Vermont Ave NW Ste 550"
          }
-      </script>
+      }
+   </script>
    
       
-
-      
-
-      <div class="col_ggPrimary1 text_7n box_padded1 grid_padder col_whiteText zindex_modal js-jsWarning" style="position:fixed;bottom:0;">
-         <script type="text/javascript">
-            <!-- hide the js warning when js is present (leaves the warning in place if js is not processed) -->
-            var noscripts = document.getElementsByClassName('js-jsWarning');
-            for (i = 0; i < noscripts.length; i++) {
-            	noscripts[i].style.display = 'none';
-            }
-         </script>
-         WARNING: Javascript is currently disabled or is not available in your browser. GlobalGiving makes extensive use of Javascript and will not function properly with Javascript disabled. <span class="col_defaultText"><a class="col_inherit" href="http://www.enable-javascript.com/" target="_blank"> Please enable Javascript</a></span> and refresh this page.</div>
-      </div>
+   <div class="col_ggPrimary1 text_7n box_padded1 grid_padder col_whiteText zindex_modal js-jsWarning" style="position:fixed;bottom:0;">
+      <script type="text/javascript">
+         // hide the js warning when js is present (leaves the warning in place if js is not processed) -->
+         var noscripts = document.getElementsByClassName('js-jsWarning');
+         for (i = 0; i < noscripts.length; i++) {
+            noscripts[i].style.display = 'none';
+         }
+      </script>
+      WARNING: Javascript is currently disabled or is not available in your browser. GlobalGiving makes extensive use of Javascript and will not function properly with Javascript disabled. <span class="col_defaultText"><a class="col_inherit" href="http://www.enable-javascript.com/" target="_blank"> Please enable Javascript</a></span> and refresh this page.</div>
+   </div>
 
 
 </body>
