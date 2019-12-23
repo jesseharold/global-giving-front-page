@@ -1,0 +1,83 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gg-btn {    
+    background-color: #457389;
+    color: white;
+    border: 0;
+    padding: .8em 2em;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin: 1em;
+
+    &--secondary {
+        background-color: #9fa617;
+    }
+
+    &--tertiary {
+        background-color: #e37f1c;
+    }
+
+    &--tertiaryDark {
+        background-color: #97341b;
+    }
+}
+
+.title-small {
+    color: #457389;
+    text-transform: uppercase;    
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    &--secondary {
+        color: #9fa617;
+    }
+
+    &--tertiary {
+        color: #e37f1c;
+    }
+
+    &--tertiaryDark {
+        color: #97341b;
+    }
+}
+
+.light-text {
+    color: #fff;
+}
+
+
+.join-companies {
+    .logos-grid-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+        min-width: 300px;
+        background-color: #aabfc9;
+        padding: 3em 4em;
+        margin: 2px;
+
+        img {
+            max-width: 60%;
+            max-height: 3em;
+        }
+    }
+}
+
+.call-to-action {
+    width: 33%;
+    min-width: 300px;
+}
+
+.display-text {
+    margin: 30px;
+    width: 80%;
+    min-width: 300px;
+}

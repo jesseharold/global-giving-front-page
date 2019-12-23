@@ -80,12 +80,14 @@
 
 <link rel="stylesheet" type="text/css" href="v2/css/minimal.css">
 <link rel="stylesheet" type="text/css" href="homepage/homepage.css" inline>
+<!-- new styles for mockup -->
+<link rel="stylesheet" type="text/css" href="v3/css/homepage.css" inline>
 
    
 
 </head>
 
-<body class="text_sansLoaded text_titleLoaded  ">
+<body class="text_sansLoaded text_titleLoaded">
       
       
    <header class="border_default border_top0 border_left0 border_right0">
@@ -346,93 +348,82 @@
    </div>
    <!-- END explore projects -->
 
-
-
-
-
-
-   <section class="layout_center">
-      <div class="grid-11 grid-md-9 grid-lg-7 grid-xl-6 grid-xxl-5 box_verticalPadded5 layout_center">
-         <div class="layout_centerVertical">
-         <div class="img-bg box_verticalPadded2">
-           <span class="text_fontSizeLarge text_lineHeightLoose">
-           		GlobalGiving connects <a href="/nonprofits/" class="text_7n link_subtle col_defaultText">nonprofits</a>, <a href="/search/" class="text_7n link_subtle col_defaultText">donors</a>, and <a href="/companies/" class="text_7n link_subtle col_defaultText">companies</a> in nearly every country around the world.
-	            We help local nonprofits access the funding, tools, training, and support they need to become more effective.
-	        </span>
-           <br/><br/>
-           <a class="btn btn_ggPrimary2" href="/aboutus">Learn More</a>
-         </div>
-         </div>
-      </div>
-   </section>
-
    
    <!-- what we do -->
-   <section class="layout_center whatWeDo">
-      <h2>what we do</h2>
-      <p>
-         We are a nonprofit that empowers local community-led nonprofits through tools, training, and support so they can make our world a better place.
-      </p>
+   <div class="layout_center whatWeDo">
+         <h2 class="title-small title-small--secondary">what we do</h2>
+         <h3 class="display-text text_fontSizeLarger">
+            We are a nonprofit that empowers local community-led nonprofits through tools, training, and support so they can make our world a better place.
+         </h3>
    </section>
    <!-- END what we do -->
 
    
    <!-- calls to action -->
    <section class="layout_center callsToAction">
-      <div class="callToAction--nonprofits">
-         <h3>For nonprofits</h3>
-         <h2>Support, training, and funding.</h2>
-         <p>
-            Nonprofit organizations, big or small, can get the exposure, support, encouragement, and tools they need to become more effective.
-         </p>
-         <button>Do more good</button>
-      </div>
-      <div class="callToAction--donors">
-         <h3>For donors</h3>
-         <h2>Safe, easy donations.</h2>
-         <p>
-            Donors everywhere can give confidently and securely to vetted, locally-driven organizations around the world.
-         </p>
-         <button>Find a project</button>
-      </div>
-      <div class="callToAction--companies">
-         <h3>For companies</h3>
-         <h2>Corporate giving, simplified.</h2>
-         <p>
-            Companies can do more good with their charitable donations through employee engagement, gift
-         </p>
-         <button>Apply to join</button>
+      <div class="grid-padder flex-container">
+         <div class="call-to-action">
+            <img src="img/svg/tree.svg">
+            <h2 class="title-small title-small--secondary">For nonprofits</h2>
+            <h3>Support, training, and funding.</h2>
+            <p>
+               Nonprofit organizations, big or small, can get the exposure, support, encouragement, and tools they need to become more effective.
+            </p>
+            <button class="gg-btn gg-btn--secondary">Apply to join</button>
+         </div>
+         <div class="call-to-action">
+            <img src="img/svg/hand.svg">
+            <h2 class="title-small title-small--tertiary">For donors</h2>
+            <h3>Safe, easy donations.</h2>
+            <p>
+               Donors everywhere can give confidently and securely to vetted, locally-driven organizations around the world.
+            </p>
+            <button class="gg-btn gg-btn--tertiary">Find a project</button>
+         </div>
+         <div class="call-to-action">
+            <img src="img/svg/buildings.svg">
+            <h2 class="title-small">For companies</h2>
+            <h3>Corporate giving, simplified.</h2>
+            <p>
+               Companies can do more good with their charitable donations through employee engagement, gift
+            </p>
+            <button class="gg-btn">Do more good</button>
+         </div>
       </div>
    </section>
    <!-- END calls to action -->
 
    
    <!-- why join: non profits -->
-   <section class="layout_center joinForNonprofits">
-      <h3>For non-profits</h3>
-      <h2>Why Join GlobalGiving?</h2>
-      <p>
-         You need a partner, not just a platform. Join organizations like yours from 170 Countries and get training and support tailored to you, access extra funding through our thematic matching campaigns, and improve your fundraising and your impact with our powerful suite of tools.
-      </p>
-      <button>Apply Now</button>
+   <section class="layout_center join-nonprofits">
+      <div class="grid-padder">
+         <h2 class="title-small title-small--secondary">For nonprofits</h2>
+         <h2 class="title-large light-text">Why Join GlobalGiving?</h2>
+         <p>
+            You need a partner, not just a platform. Join organizations like yours from 170 Countries and get training and support tailored to you, access extra funding through our thematic matching campaigns, and improve your fundraising and your impact with our powerful suite of tools.
+         </p>
+         <button class="gg-btn">Apply Now</button>
+      </div>
    </section>
    <!-- END why join: non profits -->
 
    
    <!-- join: companies -->
-   <section class="layout_center joinForCompanies">
-      <h2>Join the 200+ companies doing good around the world.</h2>
-      <p>
-         Is your company looking for ways to expand your philanthropic footprint? We have the tools and programs you need to enhance your corporate giving strategy, empower your stakeholders, and support local causes around the world.
-      </p>
-      <button>Learn More</button>
-      <div class="logosGrid">
-         <div class="logosGrid-logo"><img src="img/logos/microsoft_white.png"></div>
-         <div class="logosGrid-logo"><img src="img/logos/facebook-logo-hi-res.svg"></div>
-         <div class="logosGrid-logo"><img src="img/logos/ford_white.png"></div>
-         <div class="logosGrid-logo"><img src="img/logos/discovery_white.png"></div>
-         <div class="logosGrid-logo"><img src="img/logos/jetblue-white-reg.png"></div>
-         <div class="logosGrid-logo"><img src="img/logos/fidelity_white.png"></div>
+   <section class="layout_center join-companies">
+      <div class="grid-padder">
+         <h2>Join the 200+ companies doing good around the world.</h2>
+         <p>
+            Is your company looking for ways to expand your philanthropic footprint? We have the tools and programs you need to enhance your corporate giving strategy, empower your stakeholders, and support local causes around the world.
+         </p>
+         <button class="gg-btn">Learn More</button>
+         <div class="flex-container">
+            <div class="logos-grid-logo"><img src="img/logos/microsoft_white.png"></div>
+            <div class="logos-grid-logo"><img src="img/logos/facebook-logo-hi-res.svg"></div>
+            <div class="logos-grid-logo"><img src="img/logos/ford_white.png"></div>
+            <div class="logos-grid-logo"><img src="img/logos/discovery_white.png"></div>
+            <div class="logos-grid-logo"><img src="img/logos/jetblue-white-reg.png"></div>
+            <div class="logos-grid-logo"><img src="img/logos/fidelity_white.png"></div>
+         </div>
       </div>
    </section>
    <!-- END join: companies -->
@@ -440,11 +431,13 @@
    
    <!-- disaster relief -->
    <section class="layout_center">
-      <h2>Our approach to disaster relief and recovery</h2>
-      <p>
-         When a disaster happens, we can quickly send funds to the local organizations that are best suited to drive relief and recovery. Our vetted, locally-driven partner organizations are still hard at work driving recovery even after the news coverage has stopped. Local partners know what's best for their communities, especially in the face of disaster.
-      </p>
-      <button>Learn More</button>
+      <div class="grid-padder">
+         <h2>Our approach to disaster relief and recovery</h2>
+         <p>
+            When a disaster happens, we can quickly send funds to the local organizations that are best suited to drive relief and recovery. Our vetted, locally-driven partner organizations are still hard at work driving recovery even after the news coverage has stopped. Local partners know what's best for their communities, especially in the face of disaster.
+         </p>
+         <button class="gg-btn gg-btn--tertiaryDark">Learn More</button>
+      </div>
    </section>
    <!-- END disaster relief -->
 

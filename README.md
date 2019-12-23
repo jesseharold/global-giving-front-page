@@ -1,5 +1,7 @@
 # global-giving-front-page
 Global Giving - working front page based on POC image.
+visible here:
+https://jesseharold.github.io/global-giving-front-page/
 
 To get a better sense of your strengths and interests, we have a small programming assignment for you. The intent is for this to take between 4 to 8 hours. Please timebox yourself and stop if you reach 8 hours.
 Task

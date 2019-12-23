@@ -1,0 +1,23 @@
+{
+  "name": "global-giving-front-page",
+  "version": "1.0.0",
+  "description": "POC for new homepage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass v3/scss -o v3/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseharold/global-giving-front-page.git"
+  },
+  "author": "jesseharold@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseharold/global-giving-front-page/issues"
+  },
+  "homepage": "https://github.com/jesseharold/global-giving-front-page#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
