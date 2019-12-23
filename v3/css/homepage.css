@@ -7,12 +7,15 @@
   background-color: #457389;
   color: white;
   border: 0;
-  padding: .8em 2em;
+  padding: 1.2em 2.5em;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   box-shadow: none;
   box-sizing: border-box;
-  margin: 1em; }
+  margin: 1em;
+  letter-spacing: 1px; }
+  .gg-btn:hover, .gg-btn:focus .gg-btn:active {
+    opacity: .8; }
   .gg-btn--secondary {
     background-color: #9fa617; }
   .gg-btn--tertiary {
@@ -33,7 +36,43 @@
   .title-small--tertiaryDark {
     color: #97341b; }
 
+.title-medium {
+  font-size: 1.25em;
+  font-weight: bold; }
+
 .light-text {
+  color: #fff; }
+
+.display-text {
+  margin: 30px; }
+
+.homepage-section {
+  margin-bottom: 3em; }
+
+.what-we-do {
+  margin: 3em;
+  padding: 2em 15em 3em;
+  border-bottom: 1px solid #aaa; }
+
+.calls-to-action .call-to-action {
+  width: 33%;
+  min-width: 300px;
+  padding: 2em; }
+  .calls-to-action .call-to-action h2 {
+    margin: .7em; }
+  .calls-to-action .call-to-action .icon-large {
+    width: auto;
+    height: 90px;
+    margin-bottom: 1.5em; }
+
+.join-nonprofits .img-bg-cover {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../img/photoBackgrounds/background1.png); }
+
+.join-nonprofits .text-block {
+  width: 50%;
+  margin: 9em 2em;
   color: #fff; }
 
 .join-companies .logos-grid-logo {
@@ -49,11 +88,6 @@
     max-width: 60%;
     max-height: 3em; }
 
-.call-to-action {
-  width: 33%;
-  min-width: 300px; }
-
-.display-text {
-  margin: 30px;
-  width: 80%;
-  min-width: 300px; }
+.disasters .img-bg-cover {
+  background-image: url(../../img/photoBackgrounds/background2.png);
+  height: 55em; }
