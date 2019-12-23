@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="162px" viewBox="0 0 172 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 161.815 171.379 161.815 171.379 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rough-Homepage" transform="translate(-1194.000000, -1744.000000)">
+            <g id="Page-1" transform="translate(1194.000000, 1744.000000)">
+                <path d="M119.8789,42.707 C115.8479,42.707 112.0589,43.58 109.2079,46.431 L101.3579,52.889 L93.5079,46.43 C90.6569,43.579 86.8679,42.706 82.8369,42.706 C78.8069,42.706 75.0169,44.972 72.1659,47.822 C66.2819,53.707 66.2819,63.281 72.1659,69.165 L100.7689,97.768 C100.9309,97.93 101.1439,98.012 101.3569,98.012 C101.5689,98.012 101.7819,97.93 101.9449,97.768 L130.5489,69.166 C136.4319,63.281 136.4319,53.707 130.5489,47.823 C127.6989,44.973 123.9089,42.707 119.8789,42.707 Z" id="Stroke-1" stroke="#F08B1D" stroke-width="4.35" stroke-linecap="round"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Stroke-3" stroke="#747A80" stroke-width="4.35" stroke-linecap="round" mask="url(#mask-2)" points="2.175 149.509 32.229 149.509 32.229 99.574 2.175 99.574"></polygon>
+                <path d="M32.459,106.9287 L57.195,106.9287 C57.195,106.9287 68.985,106.6977 80.082,118.4877 L104.356,118.4877 C104.356,118.4877 109.904,118.9497 109.904,126.3477 C109.904,126.3477 110.829,134.9017 104.356,134.9017 L64.362,134.9017" id="Stroke-5" stroke="#747A80" stroke-width="4.35" stroke-linecap="round" mask="url(#mask-2)"></path>
+                <path d="M110.2129,129.5068 L147.3559,120.7988 C147.3559,120.7988 154.7529,119.6438 156.1409,124.9598 C156.1409,124.9598 157.5269,129.3528 153.3659,131.8958 L96.9579,157.0948 C96.9579,157.0948 89.3289,161.9488 74.3029,158.2498 L32.2289,143.4548" id="Stroke-6" stroke="#747A80" stroke-width="4.35" stroke-linecap="round" mask="url(#mask-2)"></path>
+                <line x1="101.3574" y1="2.1748" x2="101.3574" y2="14.9958" id="Stroke-7" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="67.4336" y1="11.2646" x2="73.8436" y2="22.3686" id="Stroke-8" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="67.4336" y1="11.2646" x2="73.8436" y2="22.3686" id="Stroke-9" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="67.4336" y1="11.2646" x2="73.8436" y2="22.3686" id="Stroke-10" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="42.5996" y1="36.0986" x2="53.7036" y2="42.5086" id="Stroke-11" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="33.5107" y1="70.0215" x2="46.3307" y2="70.0215" id="Stroke-12" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="156.3838" y1="70.0215" x2="169.2038" y2="70.0215" id="Stroke-13" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="149.0107" y1="42.5088" x2="160.1147" y2="36.0988" id="Stroke-14" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                <line x1="128.8701" y1="22.3681" x2="135.2801" y2="11.2641" id="Stroke-15" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="143px" viewBox="0 0 149 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 142.146 148.121 142.146 148.121 -2.84217094e-14 0 -2.84217094e-14"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rough-Homepage" transform="translate(-1977.000000, -1754.000000)">
+            <g id="Page-1" transform="translate(1977.000000, 1754.000000)">
+                <polygon id="Stroke-1" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" points="99.3736 139.0401 99.3736 111.6731 122.8996 111.6731 122.8996 139.0401"></polygon>
+                <polyline id="Stroke-3" stroke="#5D87A1" stroke-width="4.35" stroke-linecap="round" points="9.11 70.3526 9.11 2.1746 76.328 2.1746 76.328 139.9706"></polyline>
+                <polyline id="Stroke-5" stroke="#5D87A1" stroke-width="4.35" stroke-linecap="round" points="6.2291 139.9708 145.9461 139.9708 145.9461 47.7868 76.3281 47.7868"></polyline>
+                <path d="M19.6725,71.0733 C19.6725,71.0733 59.0435,122.6863 19.6725,122.6863" id="Stroke-7" stroke="#747A80" stroke-width="4.35" stroke-linecap="round"></path>
+                <path d="M19.6725,71.0733 C19.6725,71.0733 -19.6975,122.6863 19.6725,122.6863" id="Stroke-9" stroke="#747A80" stroke-width="4.35" stroke-linecap="round"></path>
+                <line x1="19.6725" y1="101.5607" x2="19.6725" y2="139.9707" id="Stroke-11" stroke="#747A80" stroke-width="4.35" stroke-linecap="round"></line>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-14"></g>
+                <polygon id="Stroke-13" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="22.554 32.423 37.918 32.423 37.918 17.059 22.554 17.059"></polygon>
+                <polygon id="Stroke-15" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="48.001 32.423 63.364 32.423 63.364 17.059 48.001 17.059"></polygon>
+                <polygon id="Stroke-16" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="22.554 58.35 37.918 58.35 37.918 42.986 22.554 42.986"></polygon>
+                <polygon id="Stroke-17" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="48.001 58.35 63.364 58.35 63.364 42.986 48.001 42.986"></polygon>
+                <polygon id="Stroke-18" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="92.412 75.634 107.776 75.634 107.776 60.271 92.412 60.271"></polygon>
+                <polygon id="Stroke-19" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="117.859 75.634 133.222 75.634 133.222 60.271 117.859 60.271"></polygon>
+                <polygon id="Stroke-20" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="92.412 101.561 107.776 101.561 107.776 86.198 92.412 86.198"></polygon>
+                <polygon id="Stroke-21" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="117.859 101.561 133.222 101.561 133.222 86.198 117.859 86.198"></polygon>
+                <polygon id="Stroke-22" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="48.001 84.517 63.364 84.517 63.364 69.153 48.001 69.153"></polygon>
+                <polygon id="Stroke-23" stroke="#C4C7CA" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="48.001 110.443 63.364 110.443 63.364 95.079 48.001 95.079"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
